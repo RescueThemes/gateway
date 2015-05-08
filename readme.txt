@@ -160,6 +160,10 @@ Copyright: @jamigibbs
 
 == Changelog ==
 
+= 1.2 = May 08, 2015
+* Removed unsued stylesheet (rtl.css)
+* Fixed header background color and image customizer issue
+
 = 1.1 = Apr 23, 2015
 * Added additional customizer options
 * Added customizer settings to reload changes asynchronously
