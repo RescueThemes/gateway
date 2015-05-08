@@ -15,42 +15,6 @@ if ( ! function_exists( 'customizer_library_gateway_build_styles' ) && class_exi
  */
 function customizer_library_gateway_build_styles() {
 
-	// Home Hero Background Color
-	$setting = 'home_hero_bg_color';
-	$mod = get_theme_mod( $setting, customizer_library_get_default( $setting ) );
-
-	if ( $mod !== customizer_library_get_default( $setting ) ) {
-
-		$color = sanitize_hex_color( $mod );
-
-		Customizer_Library_Styles()->add( array(
-			'selectors' => array(
-				'.home-header-bg'
-			),
-			'declarations' => array(
-				'background-color' => $color
-			)
-		) );
-	}
-
-	// Header Background Color
-	$setting = 'header_color';
-	$mod = get_theme_mod( $setting, customizer_library_get_default( $setting ) );
-
-	if ( $mod !== customizer_library_get_default( $setting ) ) {
-
-		$color = sanitize_hex_color( $mod );
-
-		Customizer_Library_Styles()->add( array(
-			'selectors' => array(
-				'.header-bg'
-			),
-			'declarations' => array(
-				'background' => $color
-			)
-		) );
-	}
-
 	// Main Button color
 	$setting = 'main_color';
 	$mod = get_theme_mod( $setting, customizer_library_get_default( $setting ) );
@@ -166,25 +130,28 @@ function customizer_library_gateway_styles() {
 	$css = Customizer_Library_Styles()->build();
 
 	$home_hero_bg = get_theme_mod( 'home_hero_bg', customizer_library_get_default( 'home_hero_bg' ) ); 
+	$home_hero_bg_color = get_theme_mod( 'home_hero_bg_color', customizer_library_get_default( 'home_hero_bg_color' ) ); 
 	$header_bg = get_theme_mod( 'header_bg' , customizer_library_get_default( 'header_bg' ) );
+	$header_color = get_theme_mod( 'header_color' , customizer_library_get_default( 'header_color' ) );
 	$bg_attachement = get_theme_mod( 'bg_attachement' , customizer_library_get_default( 'bg_attachement' ) );
 
 	echo "\n<!-- Begin Custom CSS -->\n<style type=\"text/css\" id=\"rescue_custom_css\">\n"; ?>
 
 	.home-header-bg {
-		background:url( '<?php echo esc_url( $home_hero_bg ) ?>' ) #e8554e no-repeat center center <?php echo esc_attr( $bg_attachement ) ?>;
+		background:url( '<?php echo esc_url( $home_hero_bg ) ?>' ) <?php echo esc_attr( $home_hero_bg_color ) ?> no-repeat center center <?php echo esc_attr( $bg_attachement ) ?>;
 		-webkit-background-size: cover;
 		-moz-background-size: cover;
 		-o-background-size: cover;
 		background-size: cover;
 	}
 	.header-bg { 
-		background:url( '<?php echo esc_url( $header_bg ) ?>' ) #e8554e no-repeat center center <?php echo esc_attr( $bg_attachement ) ?>; 
+		background:url( '<?php echo esc_url( $header_bg ) ?>' ) <?php echo esc_attr( $header_color ) ?> no-repeat center center <?php echo esc_attr( $bg_attachement ) ?>; 
 		-webkit-background-size: cover;
 		-moz-background-size: cover;
 		-o-background-size: cover;
 		background-size: cover;
 	}
+
 	<?php
 	echo "\n</style>\n<!-- End Custom CSS -->\n";
 
