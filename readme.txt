@@ -3,8 +3,8 @@ Contributors: rescuethemes
 Donate link: https://rescuethemes.com
 Tags: light, white, gray, orange, three-columns, responsive-layout, featured-images, theme-options, custom-colors, threaded-comments, translation-ready, right-sidebar
 Requires at least: 4.1
-Tested up to: 4.2.2
-Stable tag: 1.2
+Tested up to: 4.1
+Stable tag: 1.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -159,9 +159,6 @@ Copyright: @jamigibbs
 
 
 == Changelog ==
-
-= 1.2 = May 08, 2015
-* Removed rtl.css
 
 = 1.1 = Apr 23, 2015
 * Added additional customizer options
