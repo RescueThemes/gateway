@@ -162,6 +162,7 @@ Copyright: @jamigibbs
 = 1.2.1 = May 18, 2015
 * Updating various prefixes
 * Removing unused post-format declaration
+* Updated .pot translation file
 
 = 1.2 = May 08, 2015
 * Removed unsued stylesheet (rtl.css)
