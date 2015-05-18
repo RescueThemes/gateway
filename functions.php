@@ -135,6 +135,11 @@ function gateway_scripts() {
 
 	wp_enqueue_style( 'gateway-parent-styles', get_stylesheet_uri() );
 	wp_enqueue_style( 'gateway-fonts', gateway_fonts(), array(), null );
+
+	/**
+	 * Handle based on the standardized set
+	 * @link https://github.com/grappler/wp-standard-handles
+	 */
 	wp_enqueue_style( 'font-awesome', get_template_directory_uri() . '/fonts/css/font-awesome.css' );
 
 	wp_enqueue_script( 'gateway-skip-link-focus-fix', get_template_directory_uri() . '/js/skip-link-focus-fix.js', array( 'jquery' ), '20130115', true );
