@@ -4,7 +4,7 @@ Donate link: https://rescuethemes.com
 Tags: light, white, gray, orange, three-columns, responsive-layout, featured-images, theme-options, custom-colors, threaded-comments, translation-ready, right-sidebar
 Requires at least: 4.1
 Tested up to: 4.2.2
-Stable tag: 1.2
+Stable tag: 1.2.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -159,7 +159,7 @@ Copyright: @jamigibbs
 
 
 == Changelog ==
-= 1.3 = May 18, 2015
+= 1.2.1 = May 18, 2015
 * Updating various prefixes
 * Removing unused post-format declaration
 
