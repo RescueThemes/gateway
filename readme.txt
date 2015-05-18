@@ -159,6 +159,9 @@ Copyright: @jamigibbs
 
 
 == Changelog ==
+= 1.3 = May 18, 2015
+* Updating various prefixes
+* Removing unused post-format declaration
 
 = 1.2 = May 08, 2015
 * Removed unsued stylesheet (rtl.css)
