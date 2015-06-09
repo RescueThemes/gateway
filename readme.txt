@@ -159,6 +159,11 @@ Copyright: @jamigibbs
 
 
 == Changelog ==
+= 1.2.2 = June 9, 2015
+* Updated header image positioning
+* Updated theme URI
+* Added theme info page
+
 = 1.2.1 = May 18, 2015
 * Updating various prefixes
 * Removing unused post-format declaration
