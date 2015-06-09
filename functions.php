@@ -133,7 +133,12 @@ require get_template_directory() . '/inc/foundation.php';
 /*----------------------------------------------------*/
 function gateway_scripts() {
 
-	wp_enqueue_style( 'gateway-parent-styles', get_stylesheet_uri() );
+	/**
+	 * Get the theme's version number for cache busting
+	 */
+	$gateway = wp_get_theme();
+
+	wp_enqueue_style( 'gateway-parent-styles', get_stylesheet_uri(),  array(), $gateway['Version'] );
 	wp_enqueue_style( 'gateway-fonts', gateway_fonts(), array(), null );
 
 	/**
