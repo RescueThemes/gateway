@@ -14,6 +14,7 @@
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
 
 <?php wp_head(); ?>
+
 </head>
 
 <body <?php body_class(); ?>>
@@ -21,7 +22,7 @@
 <div id="page" class="hfeed site">
   <a class="skip-link screen-reader-text" href="#content"><?php _e( 'Skip to content', 'gateway' ); ?></a>
 
-<div class="header-bg">
+<div class="bg-image bg-image-header bg-center-center">
 
   <div class="site-branding">
 

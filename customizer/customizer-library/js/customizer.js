@@ -23,7 +23,7 @@
 	// Inner pages header background color
 	wp.customize( 'header_color', function( value ) {
 		value.bind( function( to ) {
-			$( '.header-bg' ).css( 'background', to );
+			$( '.bg-image-header' ).css( 'background', to );
 		} );
 	} );
 

@@ -144,13 +144,24 @@ function customizer_library_gateway_styles() {
 		-o-background-size: cover;
 		background-size: cover;
 	}
-	.header-bg { 
-		background:url( '<?php echo esc_url( $header_bg ) ?>' ) <?php echo esc_attr( $header_color ) ?> no-repeat center center <?php echo esc_attr( $bg_attachement ) ?>; 
-		-webkit-background-size: cover;
-		-moz-background-size: cover;
-		-o-background-size: cover;
-		background-size: cover;
-	}
+
+.bg-image-header {
+	background:url( '<?php echo esc_url( $header_bg ) ?>' ) center bottom <?php echo esc_attr( $header_color ) ?>;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.bg-center-center {
+	background-position: center center;
+}
+
+.site-branding {
+	margin: 0 auto;
+	display: table;
+	padding-top: 2em;
+}
 
 	<?php
 	echo "\n</style>\n<!-- End Custom CSS -->\n";

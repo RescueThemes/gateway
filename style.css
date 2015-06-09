@@ -1,10 +1,10 @@
 /*
 Theme Name: Gateway
-Theme URI: https://rescuethemes.com/gateway-wordpress-theme/
+Theme URI: https://rescuethemes.com/wordpress-themes/gateway
 Author: Rescue Themes
 Author URI: https://rescuethemes.com
 Description: Gateway incorporates elegant style with user friendly customizer options making it perfectly suited for a variety of WordPress users. Further instructions within the readme.txt file.
-Version: 1.2.1
+Version: 1.2.2
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: gateway
@@ -259,22 +259,27 @@ object {
 /*--------------------------------------------------------------
 6.0 Header
 --------------------------------------------------------------*/
-.header-bg .site-branding, .home-header-bg .site-branding {
+.bg-image-header .site-branding, .home-header-bg .site-branding {
   padding: 2.188em 0;
   text-align: center;
   display: block;
   margin: 0 auto;
 }
-.header-bg .site-branding h1 a, .home-header-bg .site-branding h1 a {
+.bg-image-header .site-branding h1 a, .home-header-bg .site-branding h1 a {
   color: white;
 }
-.header-bg .site-branding h2, .home-header-bg .site-branding h2 {
+.bg-image-header .site-branding h2, .home-header-bg .site-branding h2 {
   font-size: 1em;
   color: white;
 }
 
 .site-header hr {
   margin: 0 0;
+}
+
+.bg-image {
+  height: 210px;
+  width: 100%;
 }
 
 /*--------------------------------------------------------------
