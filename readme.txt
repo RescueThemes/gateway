@@ -163,6 +163,7 @@ Copyright: @jamigibbs
 * Updated header image positioning
 * Updated theme URI
 * Added theme info page
+* Added changelog.txt
 
 = 1.2.1 = May 18, 2015
 * Updating various prefixes
