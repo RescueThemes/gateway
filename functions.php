@@ -187,11 +187,6 @@ require get_template_directory() . '/inc/extras.php';
 require get_template_directory() . '/inc/jetpack.php';
 
 /**
- * Load recommended plugin notice
- */
-require get_template_directory() . '/inc/tgm/tgm.php';
-
-/**
  * Theme Info Screen
  */
 if ( is_admin() ) {
