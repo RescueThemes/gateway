@@ -41,7 +41,7 @@
 
   </div><!-- .site-branding -->
 
-</div><!-- .header-bg -->
+</div><!-- .bg-image .bg-image-header .bg-center-center -->
 
   <header id="masthead" class="site-header" role="banner">
 
