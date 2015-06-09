@@ -25,10 +25,13 @@ $url 	.= '&gateway-customizer=true';
 
 			<!-- Install Recommended Plugins -->
 			<h3><?php _e( '1. Install Recommended Plugins' ,'gateway' ); ?></h3>
-			<p><?php _e( 'Although Gateway works fine as a standalone WordPress theme, there are a few recommended plugins:', 'gateway' ); ?></p>
+			<p><?php _e( 'Although Gateway works fine as a standalone WordPress theme, there are a few recommended plugins. Once the plugins are installed, be sure to activate them:', 'gateway' ); ?></p>
 			
-			<!-- Jetpack Button -->
-			<?php if ( ! class_exists( 'Jetpack' ) ) { ?>
+			<?php 
+			/**
+			 * Jetpack plugin activation notice
+			 */
+			if ( ! class_exists( 'Jetpack' ) ) { ?>
 			<p>
 				<a href="<?php echo esc_url( wp_nonce_url( self_admin_url( 'update.php?action=install-plugin&plugin=jetpack' ), 'install-plugin_jetpack' ) ); ?>" class="button button-primary">
 					<?php _e( 'Install Jetpack', 'gateway' ); ?>
@@ -41,13 +44,15 @@ $url 	.= '&gateway-customizer=true';
 				</a>
 				<span class="dashicons dashicons-yes"></span>
 			</p>
-			<?php } ?>
+			<?php }
 
-			<!-- Rescue Shortcodes Button -->
-			<?php if ( ! class_exists( 'RESCUE_TinyMCE_Buttons' ) ) { ?>
+			/**
+			 * Rescue Shortcodes plugin activation notice
+			 */
+			if ( ! class_exists( 'RESCUE_TinyMCE_Buttons' ) ) { ?>
 			<p>
 				<a href="<?php echo esc_url( wp_nonce_url( self_admin_url( 'update.php?action=install-plugin&plugin=rescue-shortcodes' ), 'install-plugin_rescue-shortcodes' ) ); ?>" class="button button-primary">
-					<?php _e( 'Install Rescue Shortcodes', 'gateway' ); ?>
+					<?php _e( 'Rescue Shortcodes', 'gateway' ); ?>
 				</a>
 			</p>
 			<?php } else { ?>
