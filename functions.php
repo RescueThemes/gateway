@@ -190,3 +190,10 @@ require get_template_directory() . '/inc/jetpack.php';
  * Load recommended plugin notice
  */
 require get_template_directory() . '/inc/tgm/tgm.php';
+
+/**
+ * Theme Info Screen
+ */
+if ( is_admin() ) {
+	require get_template_directory() . '/inc/welcome-screen/welcome-screen.php';
+}

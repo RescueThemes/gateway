@@ -1,0 +1,90 @@
+.appearance_page_gateway-welcome .about-wrap h1 strong {
+  font-weight: 400;
+}
+.appearance_page_gateway-welcome .nav-tab-active, .appearance_page_gateway-welcome .nav-tab-active:hover {
+  background-color: #ffffff;
+  border-bottom: 1px solid #ffffff;
+}
+.appearance_page_gateway-welcome h2.nav-tab-wrapper a.nav-tab {
+  background-color: #f1f1f1;
+  color: #333333;
+  font-weight: 400;
+  padding: 1em;
+}
+.appearance_page_gateway-welcome h2.nav-tab-wrapper a.nav-tab:hover {
+  background-color: #f1f1f1;
+  color: #00b9eb;
+}
+.appearance_page_gateway-welcome h2.nav-tab-wrapper a.nav-tab.nav-tab-active {
+  background-color: #ffffff;
+}
+.appearance_page_gateway-welcome h2.nav-tab-wrapper a.nav-tab.nav-tab-active:hover {
+  color: #333333;
+}
+.appearance_page_gateway-welcome h2.nav-tab-wrapper a.nav-tab:focus {
+  box-shadow: none;
+}
+.appearance_page_gateway-welcome h2.nav-tab-wrapper, .appearance_page_gateway-welcome h3.nav-tab-wrapper, .appearance_page_gateway-welcome .about-wrap h2.nav-tab-wrapper {
+  padding-left: 0;
+}
+.appearance_page_gateway-welcome h2.nav-tab-wrapper, .appearance_page_gateway-welcome h3.nav-tab-wrapper {
+  border-bottom: none;
+}
+.appearance_page_gateway-welcome h2.nav-tab-wrapper span.dashicons, .appearance_page_gateway-welcome h3.nav-tab-wrapper span.dashicons {
+  padding-right: 0.5em;
+}
+.appearance_page_gateway-welcome .about-wrap h2 .nav-tab {
+  border: none;
+  margin: 0;
+}
+.appearance_page_gateway-welcome #getting_started, .appearance_page_gateway-welcome #enhance, .appearance_page_gateway-welcome #changelog {
+  background-color: #ffffff;
+  margin-bottom: 1.618em;
+  padding: 4em 5em;
+  overflow: hidden;
+}
+.appearance_page_gateway-welcome .theme-intro {
+  margin-bottom: 1.618em;
+  overflow: hidden;
+}
+.appearance_page_gateway-welcome .theme-intro sup {
+  font-weight: bold;
+  font-size: 50%;
+  padding: 5px 10px;
+  color: #666;
+  background: #fff;
+}
+.appearance_page_gateway-welcome #getting_started .getting-started-intro {
+  margin-bottom: 2em;
+}
+.appearance_page_gateway-welcome #getting_started .getting-started-content hr {
+  border-color: #ffffff;
+}
+.appearance_page_gateway-welcome #getting_started .getting-started-content .content-section {
+  background-color: #f1f1f1;
+  padding: 2em 4em;
+}
+.appearance_page_gateway-welcome #getting_started .getting-started-content .dashicons {
+  color: green;
+}
+.appearance_page_gateway-welcome #enhance hr {
+  border-color: #ffffff;
+}
+.appearance_page_gateway-welcome #enhance .content-section {
+  background-color: #f1f1f1;
+  padding: 2em 4em;
+}
+.appearance_page_gateway-welcome #enhance .dashicons {
+  color: green;
+  font-size: 1.6em;
+  padding-right: 0.5em;
+}
+.appearance_page_gateway-welcome #changelog .changelog-intro {
+  margin-bottom: 2em;
+}
+.appearance_page_gateway-welcome #changelog .content-section {
+  background-color: #f1f1f1;
+  color: #666;
+  line-height: 1.6em;
+  padding: 2em 4em;
+}
