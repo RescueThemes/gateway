@@ -110,8 +110,18 @@ $url 	.= '&gateway-customizer=true';
 		<div class="content-section">
 
 			<h3><?php _e( 'View documentation', 'gateway' ); ?></h3>
-			<p><?php _e( 'You can read detailed information on Gateways features and review additional instructions in the documentation.', 'gateway' ); ?></p>
+			<p><?php _e( 'You can read detailed information on Gateways features and review additional instructions in the documentation:', 'gateway' ); ?></p>
 			<p><a href="http://docs.rescuethemes.com/collection/22-gateway" class="button" target="_blank"><?php _e( 'View documentation &rarr;', 'gateway' ); ?></a></p>
+
+		</div><!-- .content-section -->
+
+		<hr>
+
+		<div class="content-section">
+
+			<h3><?php _e( 'View Theme Page', 'gateway' ); ?></h3>
+			<p><?php _e( 'The theme page will include a number of resources include demo content:', 'gateway' ); ?></p>
+			<p><a href="https://rescuethemes.com/wordpress-themes/gateway" class="button" target="_blank"><?php _e( 'View Theme Page &rarr;', 'gateway' ); ?></a></p>
 
 		</div><!-- .content-section -->
 
