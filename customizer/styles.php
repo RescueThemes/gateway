@@ -151,6 +151,7 @@ function customizer_library_gateway_styles() {
 		-moz-background-size: cover;
 		-o-background-size: cover;
 		background-size: cover;
+		height: 100%;
 	}
 
 	.bg-center-center {
