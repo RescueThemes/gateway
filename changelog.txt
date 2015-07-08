@@ -1,20 +1,24 @@
+== Change Log ==
 
-= 1.2.2 = June 9, 2015
+= 1.2.3, July 8, 2015 =
+* Updating changelog format
+
+= 1.2.2, June 9, 2015 =
 * Updated header image positioning
 * Updated theme URI
 * Added theme info page
 * Added changelog.txt
 
-= 1.2.1 = May 18, 2015
+= 1.2.1,  May 18, 2015 =
 * Updating various prefixes
 * Removing unused post-format declaration
 * Updated .pot translation file
 
-= 1.2 = May 08, 2015
+= 1.2, May 08, 2015 =
 * Removed unsued stylesheet (rtl.css)
 * Fixed header background color and image customizer issue
 
-= 1.1 = Apr 23, 2015
+= 1.1, Apr 23, 2015 =
 * Added additional customizer options
 * Added customizer settings to reload changes asynchronously
 * Added recommended plugin Rescue Shortcodes
@@ -22,17 +26,17 @@
 * Updated TGM plugin activation class to 2.4.1
 * General file cleanup for improved readibility
 
-= 1.0.8 = Apr 17, 2015
+= 1.0.8, Apr 17, 2015 =
 * Added demo navigation
 * Updated .pot translation file
 
-= 1.0.7 = Apr 16, 2015
+= 1.0.7, Apr 16, 2015 =
 * Updated Copyright/License Attribution
 * Minor mobile display improvements for post featured image
 * Prefixed featured image size names
 * Added additional default content
 
-= 1.0.6 = Mar 06, 2015
+= 1.0.6, Mar 06, 2015 =
 * Added 'the_archive_title' in favor of separate conditional statements
 * Added Google Fonts function
 * Added recommended plugin notice on theme activation for Jetpack
@@ -41,26 +45,26 @@
 * Updated language translation .pot file
 * Updated readme.txt with clarifying instructions and additional credit
 
-= 1.0.5 = Dec 29, 2014
+= 1.0.5, Dec 29, 2014 =
 * Updated home & inner pages header image option
 
-= 1.0.4 = Dec 29, 2014
+= 1.0.4, Dec 29, 2014 =
 * Updated screenshot.png
 * Removed unnecesary Foundation libraries
 * Updated .po translation file
 * Added customizer stylesheet
 * Updated instructions in readme.txt
 
-= 1.0.3 = Dec 24, 2014
+= 1.0.3, Dec 24, 2014 =
 * Updated textdomains
 
-= 1.0.2 = Nov 12, 2014
+= 1.0.2, Nov 12, 2014 =
 * Set add_image_size to hard crop mode 
 * Declared copyright in style.css
 
-= 1.0.1 = Nov 12, 2014
+= 1.0.1, Nov 12, 2014 =
 * Fixed conditional in sidebar.php
 * Updated Jetpack infinite scrolling style
 
-= 1.0 = Nov 11, 2014
+= 1.0, Nov 11, 2014 =
 * Initial release
