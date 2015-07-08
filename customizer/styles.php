@@ -145,7 +145,7 @@ function customizer_library_gateway_styles() {
 		background-size: cover;
 	}
 
-    @media (max-width: @iphone-screen) {
+    @media only screen and (max-width: 40em) {
 	    home-header-bg {
 	        background-attachment: scroll;
 	    }
