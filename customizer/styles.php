@@ -145,8 +145,8 @@ function customizer_library_gateway_styles() {
 		background-size: cover;
 	}
 
-    @media only screen and (max-width: 40em) {
-	    home-header-bg {
+   @media only screen and (max-width: 40em) {
+	    .home-header-bg {
 	        background-attachment: scroll;
 	    }
     }
