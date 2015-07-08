@@ -145,6 +145,12 @@ function customizer_library_gateway_styles() {
 		background-size: cover;
 	}
 
+    @media (max-width: @iphone-screen) {
+	    home-header-bg {
+	        background-attachment: scroll;
+	    }
+    }
+
 	.bg-image-header {
 		background:url( '<?php echo esc_url( $header_bg ) ?>' ) center bottom <?php echo esc_attr( $header_color ) ?>;
 		-webkit-background-size: cover;
