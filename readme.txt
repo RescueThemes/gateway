@@ -160,7 +160,11 @@ Copyright: @jamigibbs
 == Changelog ==
 
 = 1.2.3, July 8, 2015 =
-* Updating changelog format
+* Updated changelog format
+* Updated welcome screen content
+* Fixed Hero image display on mobile
+* Fixed navigation bar to dynamically adjust to content
+* Fixed inner header height to dynamically adjust to content
 
 = 1.2.2, June 9, 2015 =
 * Updated header image positioning

@@ -75,9 +75,12 @@
   padding: 2em 4em;
 }
 .appearance_page_gateway-welcome #enhance .dashicons {
-  color: #00b9eb;
+  color: #f6b00a;
   font-size: 1.6em;
   padding-right: 0.5em;
+}
+.appearance_page_gateway-welcome #enhance .dashicons.dashicons-sos {
+  color: #d54e21;
 }
 .appearance_page_gateway-welcome #changelog .changelog-intro {
   margin-bottom: 2em;

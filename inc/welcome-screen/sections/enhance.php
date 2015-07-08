@@ -26,12 +26,12 @@
 
 	<div class="content-section">
 
-		<h3><span class="dashicons dashicons-chart-area"></span><?php _e( 'Gateway Plus (Coming Soon!)', 'gateway' ); ?></h3>
+		<h3><span class="dashicons dashicons-star-filled"></span><?php _e( 'Upgrade to Gateway Plus', 'gateway' ); ?></h3>
 
-		<p><?php _e( 'We\'re working hard to bring you even more options and templates for your Gateway theme but we\'re not quite ready for the big reveal. Be one of the first to hear about its release though:', 'gateway' ); ?></p>
+		<p><?php _e( 'Upgrade and gain access to extra settings for your site including the ability to customize colors and fonts, eCommerce compatibility, a full year of support and updates, and much more!', 'gateway' ); ?></p>
 
-			<p><a href="http://rescuethemes.us6.list-manage.com/subscribe?u=e996b9d9a5&amp;id=a41af7345e" class="button" target="_blank">
-			<?php _e( 'Rescue Themes Newsletter &rarr;', 'gateway' ); ?></a></p>
+			<p><a href="https://rescuethemes.com/wordpress-themes/gateway-plus/" class="button" target="_blank">
+			<?php _e( 'Upgrade to Gateway Plus &rarr;', 'gateway' ); ?></a></p>
 
 	</div><!-- .content-section -->
 
