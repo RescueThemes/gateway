@@ -288,6 +288,16 @@ object {
 nav.top-bar {
   text-align: center;
 }
+@media only screen and (min-width: 64.063em) {
+  nav.top-bar {
+    height: 100%;
+  }
+}
+@media only screen and (min-width: 40.063em) {
+  nav.top-bar {
+    height: 100%;
+  }
+}
 @media only screen and (max-width: 40em) {
   nav.top-bar {
     text-align: left;
@@ -330,6 +340,10 @@ nav.top-bar .sub-menu li:nth-of-type(3) ul.sub-menu {
   border-top: none;
 }
 
+.top-bar-section {
+  position: relative;
+  top: 0.75em;
+}
 .top-bar-section .dropdown li:not(.has-form):not(.active) > a:not(.button) {
   line-height: 45px;
 }
