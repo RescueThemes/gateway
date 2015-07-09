@@ -9,3 +9,20 @@ ul.accordion-sub-container li.customize-control {
 #customize-control-custom_css_textarea textarea {
 	height: 125px;
 }
+
+/* Plus Upgraade Controls */
+#customize-control-layout-plus, 
+#customize-control-typography-plus, 
+#customize-control-colors-plus,
+#customize-control-home-slider-plus,
+#customize-control-woocommerce-plus {
+	margin-bottom: 0;
+	margin-top: 2em;
+}
+
+#customize-control-typography-plus ul,
+#customize-control-colors-plus ul, 
+#customize-control-home-slider-plus ul {
+	list-style-type: square;
+	padding-left: 1em;
+}

@@ -163,6 +163,7 @@ Copyright: @jamigibbs
 * Updated changelog format
 * Updated welcome screen content
 * Added customizer control for arbitrary text
+* Added upgrade information
 * Fixed Hero image display on mobile
 * Fixed navigation bar to dynamically adjust to content
 * Fixed inner header height to dynamically adjust to content

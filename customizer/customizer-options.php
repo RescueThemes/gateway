@@ -232,6 +232,123 @@ function customizer_library_gateway_options() {
 		'default' 	=> $primary_hover_color
 	);
 
+	$upgrade_link = "https://rescuethemes.com/wordpress-themes/gateway-plus/";
+
+/**
+ * Gateway Plus Upgrade Options
+ *
+ */
+	// Plus: Sidebar
+	$section = 'plus-sidebar';
+
+	$sections[] = array(
+		'id' 			=> $section,
+		'title' 		=> __( 'Layout', 'gateway' ),
+		'priority'	 	=> '50',
+		'description' 	=> '',
+		'panel' 		=> $panel
+	);
+
+	$options['layout-plus'] = array(
+	    'id' => 'layout-plus',
+	    'label' => __( 'Sidebar Layout', 'gateway' ),
+	    'section' => $section,
+	    'type' => 'content',
+	    'input_attrs' => array(
+	        'content' => __( '<p>Adjust the inner sidebar position to display on the right or left side of your content.</p>', 'gateway' )
+	    ),
+	    'description' => sprintf( __( '<a target="_blank" href="%1$s">Get access to the sidebar layout option</a>', 'gateway' ), esc_url( $upgrade_link ) )
+
+	);
+
+	// Plus: Typography
+	$section = 'plus-typography';
+
+	$sections[] = array(
+		'id' 			=> $section,
+		'title' 		=> __( 'Typography', 'gateway' ),
+		'priority'	 	=> '50',
+		'description' 	=> '',
+		'panel' 		=> $panel
+	);
+
+	$options['typography-plus'] = array(
+	    'id' => 'typography-plus',
+	    'label' => __( 'Advanced Typography Settings', 'gateway' ),
+	    'section' => $section,
+	    'type' => 'content',
+	    'input_attrs' => array(
+	        'content' => __( '<p>You\'ll have access to 500+ Google Fonts along with font size, weight, style, transform, line height, and spacing settings for every section:</p><ul><li>Headers and Content</li><li>Navigation</li><li>Sidebar</li><li>Footer</li><li>Copyright</li><li>and more!</li></ul>', 'gateway' )
+	    ),
+	    'description' => sprintf( __( '<a target="_blank" href="%1$s">Get access to typography settings</a>', 'gateway' ), esc_url( $upgrade_link ) )
+	);
+
+	// Plus: Colors
+	$section = 'plus-colors';
+
+	$sections[] = array(
+		'id' 			=> $section,
+		'title' 		=> __( 'Colors', 'gateway' ),
+		'priority'	 	=> '55',
+		'description' 	=> '',
+		'panel' 		=> $panel
+	);
+
+	$options['colors-plus'] = array(
+	    'id' => 'colors-plus',
+	    'label' => __( 'Advanced Color Settings', 'gateway' ),
+	    'section' => $section,
+	    'type' => 'content',
+	    'input_attrs' => array(
+	        'content' => __( '<p>Fine tune your site design with an unlimited number of color options for each section of the site:</p><ul><li>Backgrounds</li><li>Navigation</li><li>Links and Fonts</li><li>Footer</li><li>and more!</li></ul>', 'gateway' )
+	    ),
+	    'description' => sprintf( __( '<a target="_blank" href="%1$s">Get access to more color settings</a>', 'gateway' ), esc_url( $upgrade_link ) )
+	);
+
+	// Plus: Home Slider
+	$section = 'plus-home-slider';
+
+	$sections[] = array(
+		'id' 			=> $section,
+		'title' 		=> __( 'Home Slider', 'gateway' ),
+		'priority'	 	=> '60',
+		'description' 	=> '',
+		'panel' 		=> $panel
+	);
+
+	$options['home-slider-plus'] = array(
+	    'id' => 'home-slider-plus',
+	    'label' => __( 'Home Hero Section Slider', 'gateway' ),
+	    'section' => $section,
+	    'type' => 'content',
+	    'input_attrs' => array(
+	        'content' => __( '<p>Transform your home hero section from a static background image to a smooth image slider with options to change the slider speed, duration, overlay color, and overlay opacity.</p>', 'gateway' ),
+	    ),
+	    'description' => sprintf( __( '<a target="_blank" href="%1$s">Get access to the home slider</a>', 'gateway' ), esc_url( $upgrade_link ) )
+	);
+
+	// Plus: WooCommerce
+	$section = 'plus-woocommerce';
+
+	$sections[] = array(
+		'id' 			=> $section,
+		'title' 		=> __( 'eCommerce Shop', 'gateway' ),
+		'priority'	 	=> '65',
+		'description' 	=> '',
+		'panel' 		=> $panel
+	);
+
+	$options['woocommerce-plus'] = array(
+	    'id' => 'woocommerce-plus',
+	    'label' => __( 'WooCommerce', 'gateway' ),
+	    'section' => $section,
+	    'type' => 'content',
+	    'input_attrs' => array(
+	        'content' => __( '<p>Gateway Plus provides compatibility with the world\'s most popular ecommerce system, WooCommerce. Whether it\'s physical products, music files, or your time, it\'s all possible.</p>', 'gateway' )
+	    ),
+	    'description' => sprintf( __( '<a target="_blank" href="%1$s">Get access to ecommerce support</a>', 'gateway' ), esc_url( $upgrade_link ) )
+	);
+
 	// Adds the sections panels to the $options array
 	$options['sections'] = $sections;
 	$options['panels'] = $panels;

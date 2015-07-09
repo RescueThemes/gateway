@@ -197,3 +197,8 @@ require get_template_directory() . '/inc/jetpack.php';
 if ( is_admin() ) {
 	require get_template_directory() . '/inc/welcome-screen/welcome-screen.php';
 }
+
+/**
+ * Upgrade Notice
+ */
+require get_template_directory() . '/inc/upgrade/upgrade.php';
