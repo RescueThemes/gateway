@@ -1,21 +1,21 @@
+#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Gateway WordPress Theme, v1.2.1\n"
-"POT-Creation-Date: 2015-05-18 09:25-0600\n"
-"PO-Revision-Date: 2015-05-18 09:30-0600\n"
+"Project-Id-Version: Gateway WordPress Theme, v1.2.3\n"
+"POT-Creation-Date: 2015-07-09 11:51-0500\n"
+"PO-Revision-Date: 2015-07-09 11:50-0500\n"
 "Last-Translator: \n"
 "Language-Team: Rescue Themes <hello@rescuethemes.com>\n"
-"Language: en\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.7.6\n"
+"X-Generator: Poedit 1.8.2\n"
 "X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: style.css\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
 "esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
 "_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPathExcluded-0: *.js\n"
 
@@ -247,6 +247,110 @@ msgstr ""
 msgid "Main sitewide accent hover color."
 msgstr ""
 
+#: customizer/customizer-options.php:246
+msgid "Layout"
+msgstr ""
+
+#: customizer/customizer-options.php:254
+msgid "Sidebar Layout"
+msgstr ""
+
+#: customizer/customizer-options.php:258
+msgid ""
+"<p>Adjust the inner sidebar position to display on the right or left side of "
+"your content.</p>"
+msgstr ""
+
+#: customizer/customizer-options.php:260
+#, php-format
+msgid ""
+"<a target=\"_blank\" href=\"%1$s\">Get access to the sidebar layout option</"
+"a>"
+msgstr ""
+
+#: customizer/customizer-options.php:269
+msgid "Typography"
+msgstr ""
+
+#: customizer/customizer-options.php:277
+msgid "Advanced Typography Settings"
+msgstr ""
+
+#: customizer/customizer-options.php:281
+msgid ""
+"<p>You'll have access to 500+ Google Fonts along with font size, weight, "
+"style, transform, line height, and spacing settings for every section:</"
+"p><ul><li>Headers and Content</li><li>Navigation</li><li>Sidebar</"
+"li><li>Footer</li><li>Copyright</li><li>and more!</li></ul>"
+msgstr ""
+
+#: customizer/customizer-options.php:283
+#, php-format
+msgid ""
+"<a target=\"_blank\" href=\"%1$s\">Get access to typography settings</a>"
+msgstr ""
+
+#: customizer/customizer-options.php:291
+msgid "Colors"
+msgstr ""
+
+#: customizer/customizer-options.php:299
+msgid "Advanced Color Settings"
+msgstr ""
+
+#: customizer/customizer-options.php:303
+msgid ""
+"<p>Fine tune your site design with an unlimited number of color options for "
+"each section of the site:</p><ul><li>Backgrounds</li><li>Navigation</"
+"li><li>Links and Fonts</li><li>Footer</li><li>and more!</li></ul>"
+msgstr ""
+
+#: customizer/customizer-options.php:305
+#, php-format
+msgid ""
+"<a target=\"_blank\" href=\"%1$s\">Get access to more color settings</a>"
+msgstr ""
+
+#: customizer/customizer-options.php:313
+msgid "Home Slider"
+msgstr ""
+
+#: customizer/customizer-options.php:321
+msgid "Home Hero Section Slider"
+msgstr ""
+
+#: customizer/customizer-options.php:325
+msgid ""
+"<p>Transform your home hero section from a static background image to a "
+"smooth image slider with options to change the slider speed, duration, "
+"overlay color, and overlay opacity.</p>"
+msgstr ""
+
+#: customizer/customizer-options.php:327
+#, php-format
+msgid "<a target=\"_blank\" href=\"%1$s\">Get access to the home slider</a>"
+msgstr ""
+
+#: customizer/customizer-options.php:335
+msgid "eCommerce Shop"
+msgstr ""
+
+#: customizer/customizer-options.php:343
+msgid "WooCommerce"
+msgstr ""
+
+#: customizer/customizer-options.php:347
+msgid ""
+"<p>Gateway Plus provides compatibility with the world's most popular "
+"ecommerce system, WooCommerce. Whether it's physical products, music files, "
+"or your time, it's all possible.</p>"
+msgstr ""
+
+#: customizer/customizer-options.php:349
+#, php-format
+msgid "<a target=\"_blank\" href=\"%1$s\">Get access to ecommerce support</a>"
+msgstr ""
+
 #. translators: If there are characters in your language that are not supported by Quattrocento, translate this to 'off'. Do not translate into your own language.
 #: fonts/fonts.php:13
 msgctxt "Quattrocento font: on or off"
@@ -289,11 +393,11 @@ msgstr ""
 msgid "Footer Right"
 msgstr ""
 
-#: header-home.php:22 header.php:22
+#: header-home.php:22 header.php:23
 msgid "Skip to content"
 msgstr ""
 
-#: header-home.php:70 header.php:53
+#: header-home.php:70 header.php:54
 msgid "Menu"
 msgstr ""
 
@@ -387,304 +491,215 @@ msgstr ""
 msgid "Edit"
 msgstr ""
 
-#: inc/tgm/class-tgm-plugin-activation.php:161 inc/tgm/tgm.php:56
-msgid "Install Required Plugins"
+#: inc/upgrade/upgrade.php:21 inc/welcome-screen/sections/enhance.php:29
+msgid "Upgrade to Gateway Plus"
 msgstr ""
 
-#: inc/tgm/class-tgm-plugin-activation.php:162 inc/tgm/tgm.php:57
-msgid "Install Plugins"
+#: inc/upgrade/upgrade.php:38
+msgid "Plus"
 msgstr ""
 
-#: inc/tgm/class-tgm-plugin-activation.php:163 inc/tgm/tgm.php:58
-#, php-format
-msgid "Installing Plugin: %s"
+#: inc/welcome-screen/sections/changelog.php:11
+msgid "Version Update Details"
 msgstr ""
 
-#: inc/tgm/class-tgm-plugin-activation.php:164
-msgid "Something went wrong."
+#: inc/welcome-screen/sections/changelog.php:12
+msgid "Review Gateway's version details and release dates."
 msgstr ""
 
-#: inc/tgm/class-tgm-plugin-activation.php:165 inc/tgm/tgm.php:60
-#, php-format
-msgid "This theme requires the following plugin: %1$s."
-msgid_plural "This theme requires the following plugins: %1$s."
-msgstr[0] ""
-msgstr[1] ""
+#: inc/welcome-screen/sections/enhance.php:10
+msgid "Enhance Your Gateway Theme"
+msgstr ""
 
-#: inc/tgm/class-tgm-plugin-activation.php:166 inc/tgm/tgm.php:61
-#, php-format
-msgid "This theme recommends the following plugin: %1$s."
-msgid_plural "This theme recommends the following plugins: %1$s."
-msgstr[0] ""
-msgstr[1] ""
+#: inc/welcome-screen/sections/enhance.php:11
+msgid ""
+"Did you know that there are options if you'd like to customize or enhance "
+"your theme?"
+msgstr ""
 
-#: inc/tgm/class-tgm-plugin-activation.php:167 inc/tgm/tgm.php:62
+#: inc/welcome-screen/sections/enhance.php:17
+msgid "Priority Support"
+msgstr ""
+
+#: inc/welcome-screen/sections/enhance.php:19
+msgid ""
+"If you need extra support for your theme (like minor customizations and "
+"hands-on theme installation), Priority Support's got you covered."
+msgstr ""
+
+#: inc/welcome-screen/sections/enhance.php:21
+msgid "Learn About Priority Support &rarr;"
+msgstr ""
+
+#: inc/welcome-screen/sections/enhance.php:31
+msgid ""
+"Upgrade and gain access to extra settings for your site including the "
+"ability to customize colors and fonts, eCommerce compatibility, a full year "
+"of support and updates, and much more!"
+msgstr ""
+
+#: inc/welcome-screen/sections/enhance.php:34
+msgid "Upgrade to Gateway Plus &rarr;"
+msgstr ""
+
+#: inc/welcome-screen/sections/intro.php:15
+msgid ""
+"Thanks for using the Gateway theme! This info page should help you get "
+"started and serve as a handy reference area."
+msgstr ""
+
+#: inc/welcome-screen/sections/intro.php:16
+msgid ""
+"Gateway incorporates elegant style with user friendly customizer options "
+"making it perfectly suited for a variety of WordPress users."
+msgstr ""
+
+#: inc/welcome-screen/sections/start.php:17
+msgid "Getting Started With Gateway"
+msgstr ""
+
+#: inc/welcome-screen/sections/start.php:18
+msgid ""
+"We've purposely kept Gateway lean & mean so setup is a breeze. Here are some "
+"common tasks to get you started:"
+msgstr ""
+
+#: inc/welcome-screen/sections/start.php:27
+msgid "1. Install Recommended Plugins"
+msgstr ""
+
+#: inc/welcome-screen/sections/start.php:28
+msgid ""
+"Although Gateway works fine as a standalone WordPress theme, there are a few "
+"recommended plugins. Once the plugins are installed, be sure to activate "
+"them:"
+msgstr ""
+
+#: inc/welcome-screen/sections/start.php:37
+msgid "Install Jetpack"
+msgstr ""
+
+#: inc/welcome-screen/sections/start.php:43
+msgid "Jetpack Installed!"
+msgstr ""
+
+#: inc/welcome-screen/sections/start.php:55
+msgid "Rescue Shortcodes"
+msgstr ""
+
+#: inc/welcome-screen/sections/start.php:61
+msgid "Rescue Shortcodes Installed!"
+msgstr ""
+
+#: inc/welcome-screen/sections/start.php:73
+msgid "2. Configure Menu"
+msgstr ""
+
+#: inc/welcome-screen/sections/start.php:74
+msgid ""
+"Gateway includes a primary menu located in the header area of the theme. The "
+"primary navigation is perfect for your key pages like the blog and contact "
+"page. Click below to navigate to the navigation menu system."
+msgstr ""
+
+#: inc/welcome-screen/sections/start.php:75
+msgid "Configure Menu"
+msgstr ""
+
+#: inc/welcome-screen/sections/start.php:83
+msgid "3. Create a Home and Blog Page"
+msgstr ""
+
+#: inc/welcome-screen/sections/start.php:84
+msgid ""
+"Gateway includes a home page template. To use the home page template, create "
+"a new page and assign the \"Home\" template to it."
+msgstr ""
+
+#: inc/welcome-screen/sections/start.php:86
+msgid "Creating the Homepage &rarr;"
+msgstr ""
+
+#: inc/welcome-screen/sections/start.php:88
+msgid ""
+"The blog page will display from the theme's index template. This means that "
+"there's no need to assign a custom template to display your blog page. "
+"Simply create a new page and assign it in your Reading settings."
+msgstr ""
+
+#: inc/welcome-screen/sections/start.php:90
+msgid "Creating the Blog Page &rarr;"
+msgstr ""
+
+#: inc/welcome-screen/sections/start.php:92
+msgid "Assign both the \"Blog\" and \"Home\" pages in your Reading settings."
+msgstr ""
+
+#: inc/welcome-screen/sections/start.php:94
+msgid "Reading Settings"
+msgstr ""
+
+#: inc/welcome-screen/sections/start.php:102
+msgid "4. Customize Theme Settings"
+msgstr ""
+
+#: inc/welcome-screen/sections/start.php:103
+msgid ""
+"Using the WordPress Customizer you can modify Gateway's appearance to match "
+"your own style."
+msgstr ""
+
+#: inc/welcome-screen/sections/start.php:104
+msgid "Open the Customizer"
+msgstr ""
+
+#: inc/welcome-screen/sections/start.php:112
+msgid "View documentation"
+msgstr ""
+
+#: inc/welcome-screen/sections/start.php:113
+msgid ""
+"You can read detailed information on Gateways features and review additional "
+"instructions in the documentation:"
+msgstr ""
+
+#: inc/welcome-screen/sections/start.php:114
+msgid "View documentation &rarr;"
+msgstr ""
+
+#: inc/welcome-screen/sections/start.php:122
+msgid "View Theme Page"
+msgstr ""
+
+#: inc/welcome-screen/sections/start.php:123
+msgid "The theme page will include a number of resources include demo content:"
+msgstr ""
+
+#: inc/welcome-screen/sections/start.php:124
+msgid "View Theme Page &rarr;"
+msgstr ""
+
+#: inc/welcome-screen/sections/tabs.php:2
+msgid "Getting Started"
+msgstr ""
+
+#: inc/welcome-screen/sections/tabs.php:3
+msgid "Enhance Gateway"
+msgstr ""
+
+#: inc/welcome-screen/sections/tabs.php:4
+msgid "Changelog"
+msgstr ""
+
+#: inc/welcome-screen/welcome-screen.php:44
 #, php-format
 msgid ""
-"Sorry, but you do not have the correct permissions to install the %s plugin. "
-"Contact the administrator of this site for help on getting the plugin "
-"installed."
-msgid_plural ""
-"Sorry, but you do not have the correct permissions to install the %s "
-"plugins. Contact the administrator of this site for help on getting the "
-"plugins installed."
-msgstr[0] ""
-msgstr[1] ""
-
-#: inc/tgm/class-tgm-plugin-activation.php:168 inc/tgm/tgm.php:63
-#, php-format
-msgid "The following required plugin is currently inactive: %1$s."
-msgid_plural "The following required plugins are currently inactive: %1$s."
-msgstr[0] ""
-msgstr[1] ""
-
-#: inc/tgm/class-tgm-plugin-activation.php:169 inc/tgm/tgm.php:64
-#, php-format
-msgid "The following recommended plugin is currently inactive: %1$s."
-msgid_plural "The following recommended plugins are currently inactive: %1$s."
-msgstr[0] ""
-msgstr[1] ""
-
-#: inc/tgm/class-tgm-plugin-activation.php:170 inc/tgm/tgm.php:65
-#, php-format
-msgid ""
-"Sorry, but you do not have the correct permissions to activate the %s "
-"plugin. Contact the administrator of this site for help on getting the "
-"plugin activated."
-msgid_plural ""
-"Sorry, but you do not have the correct permissions to activate the %s "
-"plugins. Contact the administrator of this site for help on getting the "
-"plugins activated."
-msgstr[0] ""
-msgstr[1] ""
-
-#: inc/tgm/class-tgm-plugin-activation.php:171 inc/tgm/tgm.php:66
-#, php-format
-msgid ""
-"The following plugin needs to be updated to its latest version to ensure "
-"maximum compatibility with this theme: %1$s."
-msgid_plural ""
-"The following plugins need to be updated to their latest version to ensure "
-"maximum compatibility with this theme: %1$s."
-msgstr[0] ""
-msgstr[1] ""
-
-#: inc/tgm/class-tgm-plugin-activation.php:172 inc/tgm/tgm.php:67
-#, php-format
-msgid ""
-"Sorry, but you do not have the correct permissions to update the %s plugin. "
-"Contact the administrator of this site for help on getting the plugin "
-"updated."
-msgid_plural ""
-"Sorry, but you do not have the correct permissions to update the %s plugins. "
-"Contact the administrator of this site for help on getting the plugins "
-"updated."
-msgstr[0] ""
-msgstr[1] ""
-
-#: inc/tgm/class-tgm-plugin-activation.php:173 inc/tgm/tgm.php:68
-msgid "Begin installing plugin"
-msgid_plural "Begin installing plugins"
-msgstr[0] ""
-msgstr[1] ""
-
-#: inc/tgm/class-tgm-plugin-activation.php:174 inc/tgm/tgm.php:69
-msgid "Begin activating plugin"
-msgid_plural "Begin activating plugins"
-msgstr[0] ""
-msgstr[1] ""
-
-#: inc/tgm/class-tgm-plugin-activation.php:175 inc/tgm/tgm.php:70
-msgid "Return to Required Plugins Installer"
+"Thanks for choosing Gateway! You can read hints and tips on how get the most "
+"out of your new theme on the %stheme info screen%s."
 msgstr ""
 
-#: inc/tgm/class-tgm-plugin-activation.php:176
-msgid "Return to the dashboard"
-msgstr ""
-
-#: inc/tgm/class-tgm-plugin-activation.php:177
-#: inc/tgm/class-tgm-plugin-activation.php:1946 inc/tgm/tgm.php:71
-msgid "Plugin activated successfully."
-msgstr ""
-
-#: inc/tgm/class-tgm-plugin-activation.php:178
-#: inc/tgm/class-tgm-plugin-activation.php:1637
-msgid "The following plugin was activated successfully:"
-msgid_plural "The following plugins were activated successfully:"
-msgstr[0] ""
-msgstr[1] ""
-
-#: inc/tgm/class-tgm-plugin-activation.php:179
-#, php-format
-msgid "All plugins installed and activated successfully. %1$s"
-msgstr ""
-
-#: inc/tgm/class-tgm-plugin-activation.php:180
-msgid "Dismiss this notice"
-msgstr ""
-
-#: inc/tgm/class-tgm-plugin-activation.php:533
-#: inc/tgm/class-tgm-plugin-activation.php:2163
-msgid "Return to the Dashboard"
-msgstr ""
-
-#: inc/tgm/class-tgm-plugin-activation.php:1168
-msgid "Private Repository"
-msgstr ""
-
-#: inc/tgm/class-tgm-plugin-activation.php:1171
-msgid "Pre-Packaged"
-msgstr ""
-
-#: inc/tgm/class-tgm-plugin-activation.php:1176
-msgid "WordPress Repository"
-msgstr ""
-
-#: inc/tgm/class-tgm-plugin-activation.php:1179
-msgid "Required"
-msgstr ""
-
-#: inc/tgm/class-tgm-plugin-activation.php:1179
-msgid "Recommended"
-msgstr ""
-
-#: inc/tgm/class-tgm-plugin-activation.php:1182
-msgid "Not Installed"
-msgstr ""
-
-#: inc/tgm/class-tgm-plugin-activation.php:1184
-msgid "Installed But Not Activated"
-msgstr ""
-
-#: inc/tgm/class-tgm-plugin-activation.php:1289
-#: inc/tgm/class-tgm-plugin-activation.php:1402
-msgid "Install"
-msgstr ""
-
-#: inc/tgm/class-tgm-plugin-activation.php:1313
-#: inc/tgm/class-tgm-plugin-activation.php:1403
-msgid "Activate"
-msgstr ""
-
-#: inc/tgm/class-tgm-plugin-activation.php:1365
-#, php-format
-msgid ""
-"No plugins to install or activate. <a href=\"%1$s\" title=\"Return to the "
-"Dashboard\">Return to the Dashboard</a>"
-msgstr ""
-
-#: inc/tgm/class-tgm-plugin-activation.php:1381
-msgid "Plugin"
-msgstr ""
-
-#: inc/tgm/class-tgm-plugin-activation.php:1382
-msgid "Source"
-msgstr ""
-
-#: inc/tgm/class-tgm-plugin-activation.php:1383
-msgid "Type"
-msgstr ""
-
-#: inc/tgm/class-tgm-plugin-activation.php:1384
-msgid "Status"
-msgstr ""
-
-#: inc/tgm/class-tgm-plugin-activation.php:1929
-msgid "Install package not available."
-msgstr ""
-
-#: inc/tgm/class-tgm-plugin-activation.php:1930
-#, php-format
-msgid "Downloading install package from <span class=\"code\">%s</span>&#8230;"
-msgstr ""
-
-#: inc/tgm/class-tgm-plugin-activation.php:1931
-msgid "Unpacking the package&#8230;"
-msgstr ""
-
-#: inc/tgm/class-tgm-plugin-activation.php:1932
-msgid "Installing the plugin&#8230;"
-msgstr ""
-
-#: inc/tgm/class-tgm-plugin-activation.php:1933
-msgid "Plugin install failed."
-msgstr ""
-
-#: inc/tgm/class-tgm-plugin-activation.php:1934
-msgid "Plugin installed successfully."
-msgstr ""
-
-#: inc/tgm/class-tgm-plugin-activation.php:1945
-msgid "Plugin activation failed."
-msgstr ""
-
-#: inc/tgm/class-tgm-plugin-activation.php:2059
-msgid ""
-"The installation and activation process is starting. This process may take a "
-"while on some hosts, so please be patient."
-msgstr ""
-
-#: inc/tgm/class-tgm-plugin-activation.php:2060
-#, php-format
-msgid "%1$s installed and activated successfully."
-msgstr ""
-
-#: inc/tgm/class-tgm-plugin-activation.php:2060
-#: inc/tgm/class-tgm-plugin-activation.php:2069
-msgid "Show Details"
-msgstr ""
-
-#: inc/tgm/class-tgm-plugin-activation.php:2060
-#: inc/tgm/class-tgm-plugin-activation.php:2069
-msgid "Hide Details"
-msgstr ""
-
-#: inc/tgm/class-tgm-plugin-activation.php:2061
-msgid "All installations and activations have been completed."
-msgstr ""
-
-#: inc/tgm/class-tgm-plugin-activation.php:2062
-#, php-format
-msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
-msgstr ""
-
-#: inc/tgm/class-tgm-plugin-activation.php:2066
-msgid ""
-"The installation process is starting. This process may take a while on some "
-"hosts, so please be patient."
-msgstr ""
-
-#: inc/tgm/class-tgm-plugin-activation.php:2067
-#, php-format
-msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
-msgstr ""
-
-#: inc/tgm/class-tgm-plugin-activation.php:2068
-#, php-format
-msgid "The installation of %1$s failed."
-msgstr ""
-
-#: inc/tgm/class-tgm-plugin-activation.php:2069
-#, php-format
-msgid "%1$s installed successfully."
-msgstr ""
-
-#: inc/tgm/class-tgm-plugin-activation.php:2070
-msgid "All installations have been completed."
-msgstr ""
-
-#: inc/tgm/class-tgm-plugin-activation.php:2071
-#, php-format
-msgid "Installing Plugin %1$s (%2$d/%3$d)"
-msgstr ""
-
-#: inc/tgm/tgm.php:59
-msgid "Something went wrong with the plugin API."
-msgstr ""
-
-#: inc/tgm/tgm.php:72
-#, php-format
-msgid "All plugins installed and activated successfully. %s"
+#: inc/welcome-screen/welcome-screen.php:45
+msgid "Get started with Gateway"
 msgstr ""
 
 #: search.php:20
@@ -730,4 +745,27 @@ msgstr ""
 #: template-parts/content.php:34
 #, php-format
 msgid "more %s <span class=\"meta-nav\">...</span>"
+msgstr ""
+
+#. Theme Name of the plugin/theme
+msgid "Gateway"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "https://rescuethemes.com/wordpress-themes/gateway"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Gateway incorporates elegant style with user friendly customizer options "
+"making it perfectly suited for a variety of WordPress users. Further "
+"instructions within the readme.txt file."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Rescue Themes"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://rescuethemes.com"
 msgstr ""
