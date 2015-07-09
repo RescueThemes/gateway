@@ -161,7 +161,8 @@ Copyright: @jamigibbs
 
 = 1.2.3, July 8, 2015 =
 * Updated changelog format
-* Updated welcome screen content
+* Updated theme info page content
+* Removed TGM plugin activation class
 * Added customizer control for arbitrary text
 * Added upgrade information
 * Fixed Hero image display on mobile
