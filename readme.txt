@@ -162,6 +162,7 @@ Copyright: @jamigibbs
 = 1.2.3, July 8, 2015 =
 * Updated changelog format
 * Updated welcome screen content
+* Added customizer control for arbitrary text
 * Fixed Hero image display on mobile
 * Fixed navigation bar to dynamically adjust to content
 * Fixed inner header height to dynamically adjust to content
