@@ -159,6 +159,9 @@ Copyright: @jamigibbs
 
 == Changelog ==
 
+= 1.2.31, July 15, 2015 = 
+* Adjusting background image behavior for iOS devices
+
 = 1.2.3, July 8, 2015 =
 * Updated changelog format
 * Updated theme info page content

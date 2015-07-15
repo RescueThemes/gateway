@@ -1,10 +1,11 @@
+@charset "UTF-8";
 /*
 Theme Name: Gateway
 Theme URI: https://rescuethemes.com/wordpress-themes/gateway
 Author: Rescue Themes
 Author URI: https://rescuethemes.com
 Description: Gateway incorporates elegant style with user friendly customizer options making it perfectly suited for a variety of WordPress users. Further instructions within the readme.txt file.
-Version: 1.2.3
+Version: 1.2.31
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: gateway
@@ -60,7 +61,7 @@ abbr, acronym {
 }
 
 blockquote {
-  background-color: #fafafa;
+  background-color: #FAFAFA;
   border-left: 8px solid #e8554e;
   padding: 1.5625rem 1.25rem 0.35rem 1.1875rem;
 }
@@ -164,7 +165,7 @@ pre {
 }
 #infinite-footer .blog-info a:before {
   font-family: 'FontAwesome';
-  content: "\f106";
+  content: "";
   margin: 0 15px 0 -15px;
   margin: 0 10px 0 0;
 }
@@ -266,11 +267,11 @@ object {
   margin: 0 auto;
 }
 .bg-image-header .site-branding h1 a, .home-header-bg .site-branding h1 a {
-  color: white;
+  color: #FFFFFF;
 }
 .bg-image-header .site-branding h2, .home-header-bg .site-branding h2 {
   font-size: 1em;
-  color: white;
+  color: #FFFFFF;
 }
 
 .site-header hr {
@@ -308,10 +309,10 @@ nav.top-bar ul.title-area li.menu-icon {
   -moz-osx-font-smoothing: grayscale;
 }
 nav.top-bar .dropdown {
-  background: white;
-  border-left: 1px solid #dddddd;
-  border-right: 1px solid #dddddd;
-  border-bottom: 1px solid #dddddd;
+  background: #FFFFFF;
+  border-left: 1px solid #DDDDDD;
+  border-right: 1px solid #DDDDDD;
+  border-bottom: 1px solid #DDDDDD;
 }
 @media only screen and (max-width: 40em) {
   nav.top-bar .dropdown {
@@ -329,7 +330,7 @@ nav.top-bar .dropdown {
   }
 }
 nav.top-bar .sub-menu {
-  border-top: 1px solid #dddddd;
+  border-top: 1px solid #DDDDDD;
 }
 @media only screen and (max-width: 40em) {
   nav.top-bar .sub-menu {
@@ -380,7 +381,7 @@ section.top-bar-section .dropdown li.title h5 a {
 --------------------------------------------------------------*/
 .hero-widgets-wrap {
   text-align: center;
-  color: white;
+  color: #FFFFFF;
   margin: 5em 0;
 }
 @media only screen and (max-width: 40em) {
@@ -389,7 +390,7 @@ section.top-bar-section .dropdown li.title h5 a {
   }
 }
 .hero-widgets-wrap h1.widget-title {
-  color: white;
+  color: #FFFFFF;
   font-weight: normal;
   font-size: 3.375rem;
   margin-bottom: 0.5rem;
@@ -478,7 +479,7 @@ section.top-bar-section .dropdown li.title h5 a {
 8.0 Forms
 --------------------------------------------------------------*/
 input[type="text"], input[type="password"], input[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="month"], input[type="week"], input[type="email"], input[type="number"], input[type="search"], input[type="tel"], input[type="time"], input[type="url"], input[type="color"], textarea {
-  background-color: #eeeeee;
+  background-color: #EEEEEE;
   border: none;
   box-shadow: none;
   background-clip: padding-box;
@@ -489,7 +490,7 @@ input[type="text"], input[type="password"], input[type="date"], input[type="date
 
 html input[type="button"], input[type="reset"], input[type="submit"] {
   background-color: #e8554e;
-  color: white;
+  color: #FFFFFF;
   padding: 0.35em 1.5em;
   border: none;
   font-size: 16px;
@@ -580,7 +581,7 @@ article hr {
 article .featured-image img {
   width: 356px;
   float: left;
-  border: 1px solid #efefef;
+  border: 1px solid #EFEFEF;
   margin-right: 1.875rem;
   margin-bottom: 1.875rem;
   background-clip: padding-box;
@@ -810,7 +811,7 @@ article table .even {
   border-radius: 3px;
 }
 .comment .comment-content {
-  background-color: #f6f6f6;
+  background-color: #F6F6F6;
   background-clip: padding-box;
   /* stops bg color from leaking outside the border: */
   -webkit-border-radius: 3px;
@@ -845,7 +846,7 @@ article table .even {
   font-size: 0.875rem;
 }
 .comment-respond textarea {
-  background-color: #f6f6f6;
+  background-color: #F6F6F6;
 }
 .comment-respond #cancel-comment-reply-link {
   float: right;
@@ -896,7 +897,7 @@ footer .search-form input[type="search"] {
 }
 .widget_archive li:before, .widget_categories li:before, .widget_pages li:before, .widget_meta li:before, .widget_recent_comments li:before, .widget_recent_entries li:before {
   font-family: 'FontAwesome';
-  content: "\f02e";
+  content: "";
   margin: 0 15px 0 -15px;
 }
 
@@ -919,7 +920,7 @@ footer .search-form input[type="search"] {
 }
 .widget_tag_cloud a {
   background-color: #e8554e;
-  color: white;
+  color: #FFFFFF;
   padding: 0.35em 1.5em;
   float: left;
   margin-right: 0.35em;
@@ -970,7 +971,7 @@ footer .search-form input[type="search"] {
 
 /* Footer Font Awesome Icons */
 footer .textwidget a i {
-  color: white;
+  color: #FFFFFF;
   padding-left: 0.5em;
   font-size: 1.25rem;
 }
@@ -1021,5 +1022,5 @@ footer .widget li {
   margin-bottom: 0.75em;
 }
 footer .widget-title {
-  color: white;
+  color: #FFFFFF;
 }

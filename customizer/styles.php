@@ -145,11 +145,24 @@ function customizer_library_gateway_styles() {
 		background-size: cover;
 	}
 
+   /* for background-size:cover replacement on iOS devices */
    @media only screen and (max-width: 40em) {
 	    .home-header-bg {
 	        background-attachment: scroll;
 	    }
     }
+	@media only screen and (orientation: portrait) and (device-width: 320px), (device-width: 768px) {
+	    .home-header-bg {
+	      -webkit-background-size: auto 150%;
+	      background-attachment: scroll;
+	    }
+	}
+	@media only screen and (orientation: landscape) and (device-width: 320px), (device-width: 768px) {
+	    .home-header-bg {
+	      -webkit-background-size: 150% auto;
+	      background-attachment: scroll;
+	    }
+	}
 
 	.bg-image-header {
 		background:url( '<?php echo esc_url( $header_bg ) ?>' ) center bottom <?php echo esc_attr( $header_color ) ?>;
