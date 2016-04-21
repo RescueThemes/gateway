@@ -1,0 +1,759 @@
+/*
+Theme Name: Gateway
+Theme URI: https://rescuethemes.com/wordpress-themes/gateway
+Author: Rescue Themes
+Author URI: https://rescuethemes.com
+Description: Gateway incorporates elegant style with user friendly customizer options making it perfectly suited for a variety of WordPress users. Further instructions within the readme.txt file.
+Version: 1.3
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: gateway
+Tags: light, white, three-columns, responsive-layout, featured-images, theme-options, custom-colors, threaded-comments, translation-ready, right-sidebar, full-width-template, sticky-post, custom-header, custom-background
+
+Gateway WordPress Theme, Copyright 2015 Rescue Themes
+Gateway is distributed under the terms of the GNU GPL
+
+Gateway is based on Underscores http://underscores.me/, (C) 2012-2015 Automattic, Inc.
+
+*/
+
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+
+1.0 Defaults
+2.0 Alignments
+3.0 Accessibility
+4.0 Inifinite Scroll
+5.0 Media
+6.0 Header
+	6.1 Navigation
+7.0 Home
+	7.1 Home Hero
+	7.2 Home Posts
+	7.3 Home Content
+8.0 Forms
+9.0 Content
+	9.1 Posts
+	9.2 Blog Page
+	9.3 404 Page
+	9.4 Archive Page
+	9.5 Full Width
+	9.6 Contact Page
+10.0 Comments
+11.0 Widgets
+12.0 Footer
+
+--------------------------------------------------------------*/
+@import "settings";
+@import "mixins/mixins-master";
+
+/*--------------------------------------------------------------
+1.0 Defaults
+--------------------------------------------------------------*/
+a {
+	@include anchorhover(0.2s);
+}
+
+abbr, acronym {
+	cursor: pointer;
+}
+
+blockquote {
+	background-color: $ghost;
+	border-left: 8px solid $orange;
+	padding: 1.5625rem 1.25rem 0.35rem 1.1875rem;
+	cite {
+		margin-top: 1em;
+	}
+}
+
+button, .button {
+	font-style: italic;
+}
+
+.vcard {
+    border: none;
+    margin: 0 0;
+    padding: 0 0;
+}
+
+pre {
+    background-color: #efefef;
+    line-height: 2;
+    padding: 2em;
+}
+
+/*--------------------------------------------------------------
+2.0 Alignments
+--------------------------------------------------------------*/
+@import "modules/alignments";
+
+/*--------------------------------------------------------------
+3.0 Accessibility
+--------------------------------------------------------------*/
+@import "modules/accessibility";
+
+/*--------------------------------------------------------------
+4.0 Inifinite Scroll
+--------------------------------------------------------------*/
+@import "modules/infinite-scroll";
+
+/*--------------------------------------------------------------
+5.0 Media
+--------------------------------------------------------------*/
+@import "media/media";
+
+/*--------------------------------------------------------------
+6.0 Header
+--------------------------------------------------------------*/
+
+.bg-image-header, .home-header-bg {
+	.site-branding {
+		padding: 2.188em 0;
+		text-align: center;
+		@include center-block();
+		h1 a {
+			color: $white;
+		}
+		h2 {
+			font-size: 1em;
+			color: $white;
+		}
+	}
+}
+
+.site-header {
+	hr {
+		margin: 0 0;
+	}
+}
+.bg-image {
+	height: 210px;
+	width: 100%;
+}
+
+/*--------------------------------------------------------------
+6.1 Navigation
+--------------------------------------------------------------*/
+nav.top-bar {
+	text-align: center;
+	@media only screen and (min-width: 64.063em) {
+		height: 100%;
+	}
+	@media only screen and (min-width: 40.063em) {
+		height: 100%;
+	}
+	@media only screen and (max-width: 40em) {
+		text-align: left;
+	}
+	ul.title-area li.menu-icon {
+		@include font-smoothing(on);
+	}
+	.dropdown {
+		background: $white;
+		border-left: 1px solid $gainsboro;
+		@media only screen and (max-width: 40em) {
+			border-left: none;
+		}
+		border-right: 1px solid $gainsboro;
+		@media only screen and (max-width: 40em) {
+			border-right: none;
+		}
+		border-bottom: 1px solid $gainsboro;
+		@media only screen and (max-width: 40em) {
+			border-bottom: none;
+		}
+	}
+	.sub-menu {
+		border-top: 1px solid $gainsboro;
+		@media only screen and (max-width: 40em) {
+			border-top: none;
+		}
+		li:nth-of-type(3) ul.sub-menu {
+			border-top: none;
+		}
+	}
+}
+
+.top-bar-section {
+	position: relative;
+	top: 0.75em;
+	.dropdown li:not(.has-form):not(.active) > a:not(.button) {
+		line-height: 45px;
+	}
+	li.active:not(.has-form) a:not(.button) {}
+}
+
+section.top-bar-section {
+	display: inline-block;
+		@media only screen and (max-width: 40em) {
+			display: block;
+		}
+	ul li > a {
+		text-transform: uppercase;
+		font-size: rem-calc(14);
+		letter-spacing: $letter-spacing;
+		@include font-smoothing(on);
+	}
+	.dropdown li.title h5 a {
+		color: $jumbo;
+		font-weight: bold;
+	}
+}
+
+/*--------------------------------------------------------------
+7.0 Home
+--------------------------------------------------------------*/
+.header-bg{
+	background-color: $orange;
+}
+/*--------------------------------------------------------------
+7.1 Home Hero
+--------------------------------------------------------------*/
+.hero-widgets-wrap {
+	text-align: center;
+	color: $white;
+	margin: 5em 0;
+	@media only screen and (max-width: 40em) {
+		margin: 1em 0;
+	} // Small
+	h1.widget-title {
+		color: $white;
+		font-weight: normal;
+		font-size: rem-calc(54);
+		margin-bottom: 0.5rem;
+	}
+	p {
+		margin: 5em 0;
+		@media only screen and (max-width: 40em) {
+			margin: 2.5em 0 3.5em 0;
+		} // Small
+	}
+	.button {
+		margin: 5em 0 0 0;
+		@media only screen and (max-width: 40em) {
+			margin: 0 0 0 0;
+		} // Small
+	}
+}
+
+/*--------------------------------------------------------------
+7.2 Home Posts
+--------------------------------------------------------------*/
+.home_posts_titles {
+	text-align: center;
+	margin-bottom: 6em;
+	h2 {
+		font-size: rem-calc(42);
+		font-weight: normal;
+	}
+	h3 {
+		font-size: rem-calc(16);
+		color: $jumbo;
+		font-weight: normal;
+		width: 35%;
+		@include center-block;
+		@media only screen and (max-width: 40em) {
+			width: 100%;
+		} // small
+		@media only screen and (min-width: 40.063em) and (max-width: 64em) {
+			width: 100%;
+		} // medium
+	}
+}
+.page-template-template-home-php .site-content {
+	hr  {
+		margin: 8em 0;
+	}
+}
+.page-template-template-home-php .featured-posts {
+	article {
+		&.hentry {
+			margin: 0 0;
+			@media only screen and (max-width: 40em) {
+				margin-bottom: 3em;
+			} // small
+		}
+	}
+	h3.entry-title {
+		font-size: rem-calc(22);
+	}
+}
+/*--------------------------------------------------------------
+7.3 Home Content
+--------------------------------------------------------------*/
+.home-content {
+	p iframe {
+
+	}
+	.home-content-right {
+		text-align: center;
+		padding-top: 1em;
+		h3 {
+			margin-bottom: 1em;
+		}
+		p {
+			margin-bottom: 3em;
+		}
+		.button {
+			text-align: center;
+		}
+	}
+}
+
+/*--------------------------------------------------------------
+8.0 Forms
+--------------------------------------------------------------*/
+input[type="text"], input[type="password"], input[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="month"], input[type="week"], input[type="email"], input[type="number"], input[type="search"], input[type="tel"], input[type="time"], input[type="url"], input[type="color"], textarea {
+		background-color: $smoke;
+		border: none;
+		box-shadow: none;
+		@include border-radius(3px);
+}
+html input[type="button"], input[type="reset"], input[type="submit"] {
+    background-color: $orange;
+    color: $white;
+    padding: 0.35em 1.5em;
+    border: none;
+    font-size: 16px;
+    font-style: italic;
+    @include border-radius(3px);
+    @include anchorhover(0.2s);
+	&:hover {
+		background-color: $charcoal;
+	}
+}
+
+/*--------------------------------------------------------------
+9.0 Content
+--------------------------------------------------------------*/
+@import "site/site";
+
+.site-content {
+	margin-top: 4.5em;
+}
+
+/*--------------------------------------------------------------
+9.1 Posts
+--------------------------------------------------------------*/
+article {
+	&.hentry {
+		margin: 0 0 8em 0;
+	}
+	&.sticky {
+		padding: 4em;
+		background-color: #f7fbff;
+		@include border-radius(3px);
+	}
+	h1 a, h2 a, h3 a, h4 a, h5 a {
+		color: $steel;
+	}
+	hr {
+		margin: 2.25rem 0 2.1875rem
+	}
+	.featured-image img {
+		width: 356px;
+		float: left;
+		border: 1px solid $silver;
+		margin-right: $column-gutter;
+		margin-bottom: $column-gutter;
+		@include border-radius(3px);
+		@include subtle-box-shadow();
+		@include anchorhover(0.2s);
+		&:hover {
+			opacity: 0.8;
+		}
+		@media only screen and (max-width: 40em) {
+			width: 100%;
+		} // Small
+	}
+	.entry-header {
+		margin-bottom: 2.75em;
+		@media only screen and (max-width: 40em) {
+			text-align: center;
+		} // Small
+	}
+	.entry-content {
+		&:after {
+			clear: none;
+		}
+		li {
+			margin-bottom: 1em;
+		}
+	}
+	.entry-footer {
+		margin: 1em 0;
+		.left {
+			background-color: #efefef;
+			padding: 0.2em 2em;
+			@include border-radius(3px);
+			i {
+				color: #d5d5d5;
+				padding: 0.25em 0.25em;
+				@include anchorhover(0.2s);
+				&:hover {
+					color: $orange;
+				}
+			}
+		}
+		.right {
+			color: #d5d5d5;
+		}
+		.cat-links, .tags-links {
+			margin-right: 1em;
+		}
+	}
+	table {
+		td, tr th {
+			padding: 1.5em;
+			@media only screen and (max-width: 40em) {
+				padding: 0.5em;
+			} // Small
+		}
+		tr th, tr td {
+			font-size: $paragraph-font-size;
+			font-weight: normal;
+		}
+		tr th {
+			color: $charcoal;
+			font-weight: bold;
+		}
+		tr td {
+			color: $monsoon;
+		}
+		.even {
+			background-color: #ffffff;
+		}
+	}
+
+}
+/* Post Nav Links */
+.nav-links {
+	.nav-previous {
+		float: left;
+	}
+	.nav-next {
+		float: right;
+	}
+}
+/* Single */
+.single article {
+	margin: 0 0 4em 0;
+	.author.vcard .fn {
+		font-weight: normal;
+	}
+	.entry-footer {
+		margin-top: 3em;
+		.right {
+			padding: 0.5em 0;
+			color: $steel;
+		}
+	}
+}
+.post-navigation {
+	margin: 0 0 3em 0;
+}
+
+/*--------------------------------------------------------------
+9.2 Blog Page
+--------------------------------------------------------------*/
+.more-link {
+	font-style: italic;
+	display: inline-block;
+}
+.blog_page_titles {
+	text-align: center;
+	margin-bottom: 6em;
+	h2 {
+		font-size: rem-calc(42);
+		font-weight: normal;
+	}
+	h3 {
+		font-size: rem-calc(16);
+		color: $jumbo;
+		font-weight: normal;
+		width: 35%;
+		@include center-block;
+		@media only screen and (max-width: 40em) {
+			width: 100%;
+		} // small
+		@media only screen and (min-width: 40.063em) and (max-width: 64em) {
+			width: 100%;
+		} // medium
+	}
+}
+
+/*--------------------------------------------------------------
+9.3 404 Page
+--------------------------------------------------------------*/
+.error-404 {
+	header, .page-content p {
+		text-align: center;
+	}
+	.search-form {
+		margin-top: 5em;
+	}
+	.large-3 {
+		margin-top: 5em;
+		h2 {
+			font-size: 1.1em;
+		}
+	}
+}
+
+/*--------------------------------------------------------------
+9.4 Archive Page
+--------------------------------------------------------------*/
+.search, .archive {
+	.page-header {
+		margin: 0 0 5em 0;
+	}
+}
+
+/*--------------------------------------------------------------
+9.5 Full Width
+--------------------------------------------------------------*/
+.page-template-template-full-php {
+	h2 {
+		text-align: center;
+		margin-bottom: 2em;
+	}
+}
+
+/*--------------------------------------------------------------
+9.6 Contact Page
+--------------------------------------------------------------*/
+.contact-form {
+	label {
+		margin: 1.5em 0 0.25em 0 !important;
+		font-size: rem-calc(18);
+		color: $steel;
+	}
+	input[type="text"], input[type="email"] {
+   	 	width: 500px !important;
+   	 	height: 4em;
+	}
+	textarea {
+		height: 20em !important;
+		width: 100% !important;
+		margin-bottom: 2em!important;
+	}
+}
+
+/*--------------------------------------------------------------
+10.0 Comments
+--------------------------------------------------------------*/
+.comments-area {
+	h4.comments-title {
+		margin: 2em 0;
+	}
+	ol {
+		list-style: none;
+		margin-left: 0;
+		.children {
+		    margin-left: 80px;
+		}
+	}
+}
+.comment {
+	margin-top: 40px;
+	img.avatar {
+   	 	display: block;
+    	float: left;
+   		height: 60px;
+    	margin: 0 20px 0 0;
+    	width: 60px;
+    	@include border-radius(3px);
+	}
+	.comment-content {
+		background-color: $vapor;
+	    @include border-radius(3px);
+	    margin-left: rem-calc(80);
+	    padding: rem-calc(40);
+	}
+	.comment-meta-header {
+		cite {
+			margin-right: 1em;
+			font-weight: bold;
+			color: $charcoal;
+		}
+		.comment-meta {
+			font-size: rem-calc(14);
+		}
+		.comment-reply-link {
+			float: right;
+			font-size: rem-calc(16);
+			font-style: italic;
+		}
+	}
+}
+.comment-respond {
+	margin: 3em 0;
+	h3.comment-reply-title {
+		font-size: rem-calc(20);
+	}
+	.comment-form-comment label {
+		display: none;
+	}
+	.logged-in-as {
+		font-size: rem-calc(14);
+	}
+	textarea {
+		background-color: $vapor;
+	}
+	#cancel-comment-reply-link {
+		float: right;
+		position: relative;
+		top: 2.5em;
+		font-style: italic;
+		font-weight: normal;
+	}
+}
+
+/*--------------------------------------------------------------
+11.0 Widgets
+--------------------------------------------------------------*/
+
+@import "site/secondary/widgets";
+
+.widget-area aside {
+	margin-bottom: 4.5em;
+}
+h1.widget-title {
+	font-size: rem-calc(16);
+	margin-bottom: 2em;
+}
+
+/* Search Widget */
+.search-form {
+	input[type="search"] {
+		height: 2.8125rem;
+	}
+
+}
+footer .search-form input[type="search"] {
+	background-color: #464646;
+}
+/* Archive, Categories, pages, Meta, Comments, Posts Widget */
+.widget_archive, .widget_categories, .widget_pages, .widget_meta, .widget_recent_comments, .widget_recent_entries {
+	ul {
+		color: #bebebe;
+		list-style: none;
+	}
+	li:before {
+		@include fontawesomelist('\f02e');
+	}
+}
+/* RSS Widget */
+.widget_rss {
+	ul {
+		list-style: none;
+		margin-left: 0;
+	}
+	li {
+		margin-bottom: 2em;
+	}
+	.rssSummary {
+		margin: 2em 0;
+	}
+}
+/* Tags Widget */
+.widget_tag_cloud {
+	@include clearfix();
+	a {
+		background-color: $orange;
+		color: $white;
+		padding: 0.35em 1.5em;
+		float: left;
+		margin-right: 0.35em;
+		margin-bottom: 0.35em;
+		font-size: 16px!important;
+		font-style: italic;
+		@include border-radius(3px);
+		@include anchorhover(0.2s);
+		&:hover {
+			background-color: $charcoal;
+		}
+	}
+}
+/* Recent Entries Widget  */
+.widget_recent_entries .post-date {
+	font-style: italic;
+	display: block;
+	margin-left: 15px;
+}
+/* Calendar Widget */
+.widget_calendar table {
+	caption {
+		margin-bottom: 0.75em;
+		font-size: 1.2em;
+		color: $charcoal;
+	}
+	td, tr th {
+		padding-top: 1em;
+		padding-bottom: 1em;
+	}
+	tr th, tr td {
+		font-size: $paragraph-font-size;
+		font-weight: normal;
+	}
+	tr th {
+		color: $charcoal;
+	}
+	tr td {
+		color: $monsoon;
+	}
+}
+/* Footer Font Awesome Icons */
+footer .textwidget a {
+	i {
+		color: $white;
+		padding-left: 0.5em;
+		font-size: rem-calc(20);
+	}
+	&:hover i {
+		color: $orange;
+	}
+}
+
+/*--------------------------------------------------------------
+12.0 Footer
+--------------------------------------------------------------*/
+.footer-wrap {
+	background-color: #303030;
+	margin-top: 8em;
+}
+footer {
+	margin: 4em 0 0 0;
+	font-size: 1rem;
+	p, a {
+		font-size: 1rem;
+	}
+	.large-4 {
+		margin-top: 6em;
+		margin-bottom: 6em;
+		@media only screen and (max-width: 40em) {
+			text-align: center;
+			margin-top: 2em;
+			margin-bottom: 0;
+		} // Small
+	}
+	.site-info {
+		color: $charcoal;
+		font-size: rem-calc(16);
+		font-style: italic;
+		@media only screen and (max-width: 40em) {
+			text-align: center;
+		} // Small
+	}
+	.widget {
+		margin-bottom: 3em;
+		li {
+			margin-bottom: 0.75em;
+		}
+	}
+	.widget-title {
+		color: $white;
+	}
+}

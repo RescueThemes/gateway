@@ -3,7 +3,7 @@ Contributors: rescuethemes
 Donate link: https://rescuethemes.com
 Tags: light, white, gray, orange, three-columns, responsive-layout, featured-images, theme-options, custom-colors, threaded-comments, translation-ready, right-sidebar
 Requires at least: 4.1
-Tested up to: 4.2.2
+Tested up to: 4.5
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -21,9 +21,13 @@ You can customize the theme with the native WordPress Customize feature allowing
 2. Activate the theme.
 3. Create a new page called "Home".
 4. In the "Home" page editing area, assign the Home template in the Page Attributes area.
-5. Create a new page called "Blog". 
+5. Create a new page called "Blog".
 5. Navigate to "Settings > Reading" and assign Front page as "Home" and Posts page as "Blog".
 6. Add content to your website and enjoy!
+
+== Local Sass Installation ==
+
+sass --watch scss/style.scss:style.css
 
 == Home Page ==
 
@@ -127,7 +131,7 @@ https://wordpress.org/support/theme/gateway
 
 Foundation Framework - ​http://foundation.zurb.com/
 License: GPL-2.0+ - http://www.gnu.org/licenses/gpl-2.0.html
-Copyright: @ZURB 
+Copyright: @ZURB
 
 Underscores - ​http://underscores.me/
 License: MIT License - http://foundation.zurb.com/learn/faq.html#question-3
@@ -136,10 +140,6 @@ Copyright: @automattic
 Customizer Library - https://github.com/devinsays/customizer-library
 License: GPL-2.0+ - http://www.gnu.org/licenses/gpl-2.0.html
 Copyright: @devinsays
-
-TGM Plugin Activation - https://github.com/thomasgriffin/TGM-Plugin-Activation
-License: GPL-2.0+ - http://www.gnu.org/licenses/gpl-2.0.html
-Copyright: @jthomasgriffin, @GaryJones
 
 Quattrocento, Fanwood  - https://www.google.com/fonts
 License: SIL OFL 1.1 - https://www.google.com/fonts/attribution
@@ -159,7 +159,11 @@ Copyright: @jamigibbs
 
 == Changelog ==
 
-= 1.2.31, July 15, 2015 = 
+= 1.3, Apr 21, 2016 =
+* Adding sass files
+* Minor improvements to the theme info page
+
+= 1.2.31, July 15, 2015 =
 * Adjusting background image behavior for iOS devices
 
 = 1.2.3, July 8, 2015 =
@@ -228,7 +232,7 @@ Copyright: @jamigibbs
 * Updated textdomains
 
 = 1.0.2, Nov 12, 2014 =
-* Set add_image_size to hard crop mode 
+* Set add_image_size to hard crop mode
 * Declared copyright in style.css
 
 = 1.0.1, Nov 12, 2014 =

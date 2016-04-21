@@ -1,0 +1,143 @@
+.appearance_page_gateway-welcome {
+
+.intro-text, .theme-screenshot {
+	width: 50%;
+	display: inline-block;
+	@media only screen and (max-width: 40em) {
+		width: 100%;
+	} /* Small */
+	@media only screen and (min-width: 40.063em) and (max-width: 64em) {
+		width: 100%;
+	} /* Medium */
+}
+.intro-text {
+	margin-right: 5%;
+	float: left;
+	@media only screen and (max-width: 40em) {
+		margin-right: 0;
+	} /* Small */
+	@media only screen and (min-width: 40.063em) {
+		margin-right: 0;
+	} /* Medium */
+}
+.theme-screenshot img {
+	float: right;
+}
+
+.about-wrap h1 strong {
+	font-weight: 400;
+}
+
+.nav-tab-active, .nav-tab-active:hover {
+	background-color: #ffffff;
+	border-bottom: 1px solid #ffffff;
+}
+
+h2.nav-tab-wrapper {
+	a.nav-tab {
+		background-color: #f1f1f1;
+		color: #333333;
+		font-weight: 400;
+		padding: 1em;
+		&:hover {
+			background-color: #f1f1f1;
+			color: #00b9eb;
+		}
+		&.nav-tab-active {
+			background-color: #ffffff;
+			&:hover {
+				color: #333333;
+			}
+		}
+		&:focus {
+			box-shadow: none;
+		}
+	}
+}
+
+h2.nav-tab-wrapper, h3.nav-tab-wrapper, .about-wrap h2.nav-tab-wrapper {
+	padding-left: 0;
+}
+h2.nav-tab-wrapper, h3.nav-tab-wrapper {
+	border-bottom: none;
+	span.dashicons {
+		padding-right: 0.5em;
+	}
+}
+.about-wrap h2 .nav-tab {
+	border: none;
+	margin: 0;
+}
+
+
+#getting_started, #enhance, #changelog {
+	background-color: #ffffff;
+	margin-bottom: 1.618em;
+	padding: 4em 5em;
+	overflow: hidden;
+}
+
+.theme-intro {
+	margin-bottom: 1.618em;
+	overflow: hidden;
+	sup {
+		font-weight: bold;
+		font-size: 50%;
+		padding: 5px 10px;
+		color: #666;
+		background: #fff;
+	}
+}
+
+#getting_started {
+
+	.getting-started-intro {
+		margin-bottom: 2em;
+	}
+
+	.getting-started-content {
+		hr {
+			border-color: #ffffff;
+		}
+		.content-section {
+			background-color: #f1f1f1;
+			padding: 2em 4em;
+		}
+		.dashicons {
+			color: green;
+		}
+	}
+
+}
+
+#enhance {
+	hr {
+		border-color: #ffffff;
+	}
+	.content-section {
+		background-color: #f1f1f1;
+		padding: 2em 4em;
+	}
+	.dashicons {
+	    color: #f6b00a;
+	    font-size: 1.6em;
+	    padding-right: 0.5em;
+	}
+	.dashicons.dashicons-sos {
+		color: #d54e21;
+	}
+}
+
+#changelog {
+	.changelog-intro {
+		margin-bottom: 2em;
+	}
+	.content-section {
+		background-color: #f1f1f1;
+	    color: #666;
+	    line-height: 1.6em;
+	    padding: 2em 4em;
+	}
+}
+
+}

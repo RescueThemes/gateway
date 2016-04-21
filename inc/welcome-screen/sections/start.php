@@ -26,8 +26,8 @@ $url 	.= '&gateway-customizer=true';
 			<!-- Install Recommended Plugins -->
 			<h3><?php _e( '1. Install Recommended Plugins' ,'gateway' ); ?></h3>
 			<p><?php _e( 'Although Gateway works fine as a standalone WordPress theme, there are a few recommended plugins. Once the plugins are installed, be sure to activate them:', 'gateway' ); ?></p>
-			
-			<?php 
+
+			<?php
 			/**
 			 * Jetpack plugin activation notice
 			 */
@@ -49,7 +49,7 @@ $url 	.= '&gateway-customizer=true';
 			/**
 			 * Rescue Shortcodes plugin activation notice
 			 */
-			if ( ! class_exists( 'RESCUE_TinyMCE_Buttons' ) ) { ?>
+			if ( ! function_exists( 'rescue_shortcodes_media_button' ) ) { ?>
 			<p>
 				<a href="<?php echo esc_url( wp_nonce_url( self_admin_url( 'update.php?action=install-plugin&plugin=rescue-shortcodes' ), 'install-plugin_rescue-shortcodes' ) ); ?>" class="button button-primary">
 					<?php _e( 'Rescue Shortcodes', 'gateway' ); ?>
@@ -65,6 +65,7 @@ $url 	.= '&gateway-customizer=true';
 			<?php } ?>
 
 		</div><!-- .content-section -->
+
 
 		<hr>
 
