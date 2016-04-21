@@ -141,10 +141,6 @@ Customizer Library - https://github.com/devinsays/customizer-library
 License: GPL-2.0+ - http://www.gnu.org/licenses/gpl-2.0.html
 Copyright: @devinsays
 
-TGM Plugin Activation - https://github.com/thomasgriffin/TGM-Plugin-Activation
-License: GPL-2.0+ - http://www.gnu.org/licenses/gpl-2.0.html
-Copyright: @jthomasgriffin, @GaryJones
-
 Quattrocento, Fanwood  - https://www.google.com/fonts
 License: SIL OFL 1.1 - https://www.google.com/fonts/attribution
 
