@@ -163,8 +163,9 @@ Copyright: @jamigibbs
 
 == Changelog ==
 
-= 1.3, Apr 21, 2015 =
+= 1.3, Apr 21, 2016 =
 * Adding sass files
+* Minor improvements to the theme info page
 
 = 1.2.31, July 15, 2015 =
 * Adjusting background image behavior for iOS devices
