@@ -1,0 +1,82 @@
+// Rem output with px fallback
+@mixin font-size($sizeValue: 1.6) {
+	font-size: ($sizeValue * 10) + px;
+	font-size: $sizeValue + rem;
+}
+
+// Box model
+@mixin box-sizing($box-model) {
+	-webkit-box-sizing: $box-model; // Safari <= 7
+	-moz-box-sizing: $box-model; // Firefox <= 19
+	box-sizing: $box-model;
+}
+
+// Border radius
+@mixin border-radius($radius) {
+	background-clip: padding-box; /* stops bg color from leaking outside the border: */
+	-webkit-border-radius: $radius;
+	border-radius: $radius;
+}
+
+// Horizontally Center block
+@mixin center-block {
+	display: block;
+	margin: 0 auto;
+}
+
+// Vertically center block
+@mixin vertical-align {
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+// Clearfix
+@mixin clearfix() {
+	content: "";
+	display: table;
+}
+
+// Clear after (not all clearfix need this also)
+@mixin clearfix-after() {
+	clear: both;
+}
+
+// Hover delay on links
+@mixin anchorhover($delay){ // 0.2s
+  -o-transition: $delay;
+  -ms-transition: $delay;
+  -moz-transition: $delay;
+  -webkit-transition: $delay;
+  transition: $delay;
+}
+
+// Better font-rendering - http://goo.gl/GLuNVb
+// Usage: @include font-smoothing(off); @include font-smoothing(on);
+@mixin font-smoothing($value: on) {
+    @if $value == on {
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+    }
+    @else {
+        -webkit-font-smoothing: subpixel-antialiased;
+        -moz-osx-font-smoothing: auto;
+    }
+}
+
+// Box Shadow
+@mixin subtle-box-shadow() {
+  -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12);
+  -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12);
+}
+
+// Font Awesome List Icon
+// Usage: li:before { @include fontawesomelist('\f02e'); }
+@mixin fontawesomelist($font) { 
+    font-family: 'FontAwesome';
+    content: $font;
+    margin:0 15px 0 -15px;
+}
