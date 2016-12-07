@@ -158,6 +158,13 @@ Copyright: @jamigibbs
 
 
 == Changelog ==
+= 1.3.2, Dec 7, 2016 =
+
+* Correct text domains
+* Change h1s to h3s sidebars
+
+= 1.3.1, Aug 3, 2016 =
+* Add Jetpack Infinite Scroll compatibility 
 
 = 1.3, Apr 21, 2016 =
 * Adding sass files
