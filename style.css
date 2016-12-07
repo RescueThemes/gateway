@@ -319,7 +319,7 @@ section.top-bar-section {
   @media only screen and (max-width: 40em) {
     .hero-widgets-wrap {
       margin: 1em 0; } }
-  .hero-widgets-wrap h1.widget-title, .hero-widgets-wrap h3.widget-title {
+  .hero-widgets-wrap h1.widget-title {
     color: #FFFFFF;
     font-weight: normal;
     font-size: 3.375rem;
@@ -703,7 +703,7 @@ article table .even {
 .widget-area aside {
   margin-bottom: 4.5em; }
 
-h1.widget-title {
+h1.widget-title, h3.widget-title {
   font-size: 1rem;
   margin-bottom: 2em; }
 
