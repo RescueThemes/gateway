@@ -42,7 +42,7 @@ function customizer_library_gateway_options() {
 
 	$panels[] = array(
 	    'id' 		=> $panel,
-	    'title' 	=> __( 'Theme Options', 'demo' ),
+	    'title' 	=> __( 'Theme Options', 'gateway' ),
 	    'priority' 	=> '10'
 	);
 
@@ -200,7 +200,7 @@ function customizer_library_gateway_options() {
 		'label'   		=> __( 'Footer copyright text.', 'gateway' ),
 		'section' 		=> $section,
 		'type'    		=> 'textarea',
-		'default' 		=> __( 'Copyright 2014 <a href="#">Rescue Themes</a>. All Rights Reserved.', 'rescue'),
+		'default' 		=> __( 'Copyright 2014 <a href="#">Rescue Themes</a>. All Rights Reserved.', 'gateway'),
 		'transport'		=> 'postMessage'
 	);
 

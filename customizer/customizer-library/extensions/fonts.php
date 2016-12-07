@@ -15,9 +15,9 @@ if ( ! function_exists( 'customizer_library_get_font_choices' ) ) :
  * @return array    The fonts in value/label pairs.
  */
 function customizer_library_get_all_fonts() {
-	$heading1       = array( 1 => array( 'label' => sprintf( '--- %s ---', __( 'Standard Fonts', 'customizer-library' ) ) ) );
+	$heading1       = array( 1 => array( 'label' => sprintf( '--- %s ---', __( 'Standard Fonts', 'gateway' ) ) ) );
 	$standard_fonts = customizer_library_get_standard_fonts();
-	$heading2       = array( 2 => array( 'label' => sprintf( '--- %s ---', __( 'Google Fonts', 'customizer-library' ) ) ) );
+	$heading2       = array( 2 => array( 'label' => sprintf( '--- %s ---', __( 'Google Fonts', 'gateway' ) ) ) );
 	$google_fonts   = customizer_library_get_google_fonts();
 
 	/**
@@ -122,16 +122,16 @@ if ( ! function_exists( 'customizer_library_get_google_font_subsets' ) ) :
  */
 function customizer_library_get_google_font_subsets() {
 	return array(
-		'all'          => __( 'All', 'textdomain' ),
-		'cyrillic'     => __( 'Cyrillic', 'textdomain' ),
-		'cyrillic-ext' => __( 'Cyrillic Extended', 'textdomain' ),
-		'devanagari'   => __( 'Devanagari', 'textdomain' ),
-		'greek'        => __( 'Greek', 'textdomain' ),
-		'greek-ext'    => __( 'Greek Extended', 'textdomain' ),
-		'khmer'        => __( 'Khmer', 'textdomain' ),
-		'latin'        => __( 'Latin', 'textdomain' ),
-		'latin-ext'    => __( 'Latin Extended', 'textdomain' ),
-		'vietnamese'   => __( 'Vietnamese', 'textdomain' ),
+		'all'          => __( 'All', 'gateway' ),
+		'cyrillic'     => __( 'Cyrillic', 'gateway' ),
+		'cyrillic-ext' => __( 'Cyrillic Extended', 'gateway' ),
+		'devanagari'   => __( 'Devanagari', 'gateway' ),
+		'greek'        => __( 'Greek', 'gateway' ),
+		'greek-ext'    => __( 'Greek Extended', 'gateway' ),
+		'khmer'        => __( 'Khmer', 'gateway' ),
+		'latin'        => __( 'Latin', 'gateway' ),
+		'latin-ext'    => __( 'Latin Extended', 'gateway' ),
+		'vietnamese'   => __( 'Vietnamese', 'gateway' ),
 	);
 }
 endif;
@@ -191,15 +191,15 @@ if ( ! function_exists( 'customizer_library_get_standard_fonts' ) ) :
 function customizer_library_get_standard_fonts() {
 	return array(
 		'serif' => array(
-			'label' => _x( 'Serif', 'font style', 'textdomain' ),
+			'label' => _x( 'Serif', 'font style', 'gateway' ),
 			'stack' => 'Georgia,Times,"Times New Roman",serif'
 		),
 		'sans-serif' => array(
-			'label' => _x( 'Sans Serif', 'font style', 'textdomain' ),
+			'label' => _x( 'Sans Serif', 'font style', 'gateway' ),
 			'stack' => '"Helvetica Neue",Helvetica,Arial,sans-serif'
 		),
 		'monospace' => array(
-			'label' => _x( 'Monospaced', 'font style', 'textdomain' ),
+			'label' => _x( 'Monospaced', 'font style', 'gateway' ),
 			'stack' => 'Monaco,"Lucida Sans Typewriter","Lucida Typewriter","Courier New",Courier,monospace'
 		)
 	);

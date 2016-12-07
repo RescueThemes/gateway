@@ -64,7 +64,7 @@ if ( ! function_exists( 'gateway_comments' ) ) :
 
                         </p><!-- .comment-meta-header -->
                         
-                        <?php if ($comment->comment_approved == '0') : ?><p class="moderated"><?php _e('Your comment is awaiting moderation.','rescue'); ?></p><?php endif; ?>
+                        <?php if ($comment->comment_approved == '0') : ?><p class="moderated"><?php _e('Your comment is awaiting moderation.','gateway'); ?></p><?php endif; ?>
 
                         <div class="comment_content">
 
@@ -85,7 +85,7 @@ if ( ! function_exists( 'gateway_comments' ) ) :
         ?>
             <li <?php comment_class('clearfix'); ?> id="li-comment-<?php comment_ID() ?>">
             <div id="comment-<?php comment_ID(); ?>" class="clearfix">
-                    <?php echo "<div class='author'><em>" . __('Trackback:','rescue') . "</em> ".get_comment_author_link()."</div>"; ?>
+                    <?php echo "<div class='author'><em>" . __('Trackback:','gateway') . "</em> ".get_comment_author_link()."</div>"; ?>
                     <?php echo strip_tags(substr(get_comment_text(),0, 110)) . "..."; ?>
                     <?php comment_author_url_link('', '<small>', '</small>'); ?>
              </div>
