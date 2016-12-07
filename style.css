@@ -4,8 +4,8 @@ Theme Name: Gateway
 Theme URI: https://rescuethemes.com/wordpress-themes/gateway
 Author: Rescue Themes
 Author URI: https://rescuethemes.com
-Description: Gateway incorporates elegant style with user friendly customizer options making it perfectly suited for a variety of WordPress users. More details about the theme at Appearance > Theme Info.
-Version: 1.3.1
+Description: Gateway incorporates elegant style with user friendly customizer options making it perfectly suited for a variety of WordPress users. Further instructions within the readme.txt file.
+Version: 1.3.2
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: gateway
@@ -466,6 +466,8 @@ article.sticky {
   border-radius: 3px; }
 article h1 a, article h2 a, article h3 a, article h4 a, article h5 a {
   color: #666666; }
+article h1 {
+  font-size: 1.6875rem; }
 article hr {
   margin: 2.25rem 0 2.1875rem; }
 article .featured-image img {
@@ -701,7 +703,7 @@ article table .even {
 .widget-area aside {
   margin-bottom: 4.5em; }
 
-h1.widget-title {
+h1.widget-title, h3.widget-title {
   font-size: 1rem;
   margin-bottom: 2em; }
 
@@ -818,5 +820,3 @@ footer {
       margin-bottom: 0.75em; }
   footer .widget-title {
     color: #FFFFFF; }
-
-/*# sourceMappingURL=style.css.map */

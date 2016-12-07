@@ -4,7 +4,7 @@ Theme URI: https://rescuethemes.com/wordpress-themes/gateway
 Author: Rescue Themes
 Author URI: https://rescuethemes.com
 Description: Gateway incorporates elegant style with user friendly customizer options making it perfectly suited for a variety of WordPress users. Further instructions within the readme.txt file.
-Version: 1.3.1
+Version: 1.3.2
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: gateway
@@ -349,6 +349,9 @@ article {
 	h1 a, h2 a, h3 a, h4 a, h5 a {
 		color: $steel;
 	}
+	h1 {
+		font-size: 1.6875rem;
+	}
 	hr {
 		margin: 2.25rem 0 2.1875rem
 	}
@@ -620,7 +623,7 @@ article {
 .widget-area aside {
 	margin-bottom: 4.5em;
 }
-h1.widget-title {
+h1.widget-title, h3.widget-title {
 	font-size: rem-calc(16);
 	margin-bottom: 2em;
 }

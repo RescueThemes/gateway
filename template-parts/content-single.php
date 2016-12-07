@@ -18,7 +18,7 @@
 	</div><!-- .featured-image -->
 
 	<header class="entry-header">
-		<?php the_title( '<h3 class="entry-title">', '</h3>' ); ?>
+		<?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
 
 		<div class="entry-meta">
 			<?php gateway_posted_on(); ?>
