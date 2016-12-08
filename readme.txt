@@ -158,6 +158,10 @@ Copyright: @jamigibbs
 
 
 == Changelog ==
+
+= 1.3.3, Dec 8, 2016 =
+* Correct hero widget h1
+
 = 1.3.2, Dec 7, 2016 =
 
 * Correct text domains
