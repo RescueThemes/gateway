@@ -5306,7 +5306,7 @@
       index : 0,
       sticky_class : 'stick',
       custom_back_text: true,
-      back_text: 'Back',
+      back_text: gateway_top_bar.back_button_text,
       mobile_show_parent_link: true,
       is_hover: true,
       scrolltop : true, // jump to top when sticky nav menu toggle is clicked

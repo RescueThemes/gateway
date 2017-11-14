@@ -2,14 +2,14 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Gateway WordPress Theme, v1.2.3\n"
-"POT-Creation-Date: 2015-07-09 11:51-0500\n"
+"POT-Creation-Date: 2017-11-14 14:11-0500\n"
 "PO-Revision-Date: 2015-07-09 11:50-0500\n"
 "Last-Translator: \n"
 "Language-Team: Rescue Themes <hello@rescuethemes.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.8.2\n"
+"X-Generator: Poedit 1.8.12\n"
 "X-Poedit-Basepath: ..\n"
 "X-Poedit-WPHeader: style.css\n"
 "X-Poedit-SourceCharset: UTF-8\n"
@@ -33,7 +33,6 @@ msgstr ""
 msgid "Most Used Categories"
 msgstr ""
 
-#. translators: %1$s: smiley
 #: 404.php:74
 #, php-format
 msgid "Try looking in the monthly archives. %1$s"
@@ -351,19 +350,16 @@ msgstr ""
 msgid "<a target=\"_blank\" href=\"%1$s\">Get access to ecommerce support</a>"
 msgstr ""
 
-#. translators: If there are characters in your language that are not supported by Quattrocento, translate this to 'off'. Do not translate into your own language.
 #: fonts/fonts.php:13
 msgctxt "Quattrocento font: on or off"
 msgid "on"
 msgstr ""
 
-#. translators: If there are characters in your language that are not supported by Fanwood Text, translate this to 'off'. Do not translate into your own language.
 #: fonts/fonts.php:17
 msgctxt "Fanwood Text font: on or off"
 msgid "on"
 msgstr ""
 
-#. translators: To add an additional character subset specific to your language, translate this to 'greek', 'cyrillic', 'devanagari' or 'vietnamese'. Do not translate into your own language.
 #: fonts/fonts.php:21
 msgctxt "Add new subset (greek, cyrillic, devanagari, vietnamese)"
 msgid "no-subset"
@@ -404,6 +400,10 @@ msgstr ""
 #: inc/extras.php:60
 #, php-format
 msgid "Page %s"
+msgstr ""
+
+#: inc/foundation.php:15
+msgid "Back"
 msgstr ""
 
 #: inc/template-tags.php:25
@@ -472,7 +472,6 @@ msgctxt "post author"
 msgid "by %s"
 msgstr ""
 
-#. translators: used between list items, there is a space after the comma
 #: inc/template-tags.php:193 inc/template-tags.php:199
 msgid ", "
 msgstr ""
@@ -591,91 +590,91 @@ msgstr ""
 msgid "Rescue Shortcodes Installed!"
 msgstr ""
 
-#: inc/welcome-screen/sections/start.php:73
+#: inc/welcome-screen/sections/start.php:74
 msgid "2. Configure Menu"
 msgstr ""
 
-#: inc/welcome-screen/sections/start.php:74
+#: inc/welcome-screen/sections/start.php:75
 msgid ""
 "Gateway includes a primary menu located in the header area of the theme. The "
 "primary navigation is perfect for your key pages like the blog and contact "
 "page. Click below to navigate to the navigation menu system."
 msgstr ""
 
-#: inc/welcome-screen/sections/start.php:75
+#: inc/welcome-screen/sections/start.php:76
 msgid "Configure Menu"
 msgstr ""
 
-#: inc/welcome-screen/sections/start.php:83
+#: inc/welcome-screen/sections/start.php:84
 msgid "3. Create a Home and Blog Page"
 msgstr ""
 
-#: inc/welcome-screen/sections/start.php:84
+#: inc/welcome-screen/sections/start.php:85
 msgid ""
 "Gateway includes a home page template. To use the home page template, create "
 "a new page and assign the \"Home\" template to it."
 msgstr ""
 
-#: inc/welcome-screen/sections/start.php:86
+#: inc/welcome-screen/sections/start.php:87
 msgid "Creating the Homepage &rarr;"
 msgstr ""
 
-#: inc/welcome-screen/sections/start.php:88
+#: inc/welcome-screen/sections/start.php:89
 msgid ""
 "The blog page will display from the theme's index template. This means that "
 "there's no need to assign a custom template to display your blog page. "
 "Simply create a new page and assign it in your Reading settings."
 msgstr ""
 
-#: inc/welcome-screen/sections/start.php:90
+#: inc/welcome-screen/sections/start.php:91
 msgid "Creating the Blog Page &rarr;"
 msgstr ""
 
-#: inc/welcome-screen/sections/start.php:92
+#: inc/welcome-screen/sections/start.php:93
 msgid "Assign both the \"Blog\" and \"Home\" pages in your Reading settings."
 msgstr ""
 
-#: inc/welcome-screen/sections/start.php:94
+#: inc/welcome-screen/sections/start.php:95
 msgid "Reading Settings"
 msgstr ""
 
-#: inc/welcome-screen/sections/start.php:102
+#: inc/welcome-screen/sections/start.php:103
 msgid "4. Customize Theme Settings"
 msgstr ""
 
-#: inc/welcome-screen/sections/start.php:103
+#: inc/welcome-screen/sections/start.php:104
 msgid ""
 "Using the WordPress Customizer you can modify Gateway's appearance to match "
 "your own style."
 msgstr ""
 
-#: inc/welcome-screen/sections/start.php:104
+#: inc/welcome-screen/sections/start.php:105
 msgid "Open the Customizer"
 msgstr ""
 
-#: inc/welcome-screen/sections/start.php:112
+#: inc/welcome-screen/sections/start.php:113
 msgid "View documentation"
 msgstr ""
 
-#: inc/welcome-screen/sections/start.php:113
+#: inc/welcome-screen/sections/start.php:114
 msgid ""
 "You can read detailed information on Gateways features and review additional "
 "instructions in the documentation:"
 msgstr ""
 
-#: inc/welcome-screen/sections/start.php:114
+#: inc/welcome-screen/sections/start.php:115
 msgid "View documentation &rarr;"
 msgstr ""
 
-#: inc/welcome-screen/sections/start.php:122
+#: inc/welcome-screen/sections/start.php:123
 msgid "View Theme Page"
 msgstr ""
 
-#: inc/welcome-screen/sections/start.php:123
+#: inc/welcome-screen/sections/start.php:124
 msgid "The theme page will include a number of resources include demo content:"
 msgstr ""
 
-#: inc/welcome-screen/sections/start.php:124
+#: inc/welcome-screen/sections/start.php:125
 msgid "View Theme Page &rarr;"
 msgstr ""
 
