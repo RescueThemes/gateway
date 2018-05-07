@@ -160,6 +160,10 @@ Copyright: @jamigibbs
 
 == Changelog ==
 
+
+= 1.3.6 - 2018-5-7 =
+* Tested with support for 4.9.5
+
 = 1.3.5, 2017-11-14
 
 * Added translation of mobile menu Back button

@@ -232,7 +232,7 @@ function customizer_library_gateway_options() {
 		'default' 	=> $primary_hover_color
 	);
 
-	$upgrade_link = "https://rescuethemes.com/wordpress-themes/gateway-plus/";
+	$upgrade_link = "https://rescuethemes.com/wordpress-themes/gateway-plus/?r=gwc";
 
 /**
  * Gateway Plus Upgrade Options
