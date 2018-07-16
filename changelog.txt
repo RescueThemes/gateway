@@ -1,5 +1,8 @@
 == Changelog ==
 
+= 1.3.7 - 2018-7-16 =
+* Tested and Support for WordPress 4.9.7
+
 = 1.3.6 - 2018-5-7 =
 * Tested with support for 4.9.5
 
