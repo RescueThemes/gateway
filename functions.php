@@ -65,6 +65,36 @@ function gateway_setup() {
 		'default-color' => 'ffffff',
 		'default-image' => '',
 	) ) );
+	
+	// Adding support for core block visual styles.
+	add_theme_support( 'wp-block-styles' );
+	
+	/* Add support for editor styles */
+	add_editor_style( array( 'editor-style.css', gateway_fonts() ) );
+	
+	// Add support for full and wide align images.
+	add_theme_support( 'align-wide' );
+		
+	// Add support for custom color scheme.
+	add_theme_support( 'editor-color-palette', array(
+			array(
+				'name'  => esc_html__( 'Gateway Red', 'gateway' ),
+				'slug'  => 'gateway-red',
+				'color' => '#e8554e',
+			),
+			array(
+				'name'  => esc_html__( 'Gateway Light Gray', 'gateway' ),
+				'slug'  => 'gateway-light-gray',
+				'color' => '#888888',
+			),
+			array(
+				'name'  => esc_html__( 'Gateway Dark Gray', 'gateway' ),
+				'slug'  => 'gateway-dark-gray',
+				'color' => '#666666',
+			),
+	) );
+
+	
 }
 endif; // gateway_setup
 add_action( 'after_setup_theme', 'gateway_setup' );
@@ -155,6 +185,17 @@ function gateway_scripts() {
 	}
 }
 add_action( 'wp_enqueue_scripts', 'gateway_scripts', 10 );
+
+
+/**
+ * Enqueue theme styles within Gutenberg.
+ */
+function gateway_block_editor_assets() {
+
+	wp_enqueue_style( 'gateway_block_editor', get_theme_file_uri( '/inc/block-editor.css' ), false, $gateway['Version'], 'all' );
+
+}
+add_action( 'enqueue_block_editor_assets', 'gateway_block_editor_assets' );
 
 /**
  * Load Google Fonts

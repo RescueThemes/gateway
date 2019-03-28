@@ -3,8 +3,8 @@ Contributors: rescuethemes
 Donate link: https://rescuethemes.com
 Tags: light, white, gray, orange, three-columns, responsive-layout, featured-images, theme-options, custom-colors, threaded-comments, translation-ready, right-sidebar
 Requires at least: 4.1
-Tested up to: 4.9.7
-Stable tag: 1.3.7
+Tested up to: 5.1
+Stable tag: 1.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -159,6 +159,11 @@ Copyright: @jamigibbs
 
 
 == Changelog ==
+
+= 1.4, 2019-03-14
+
+* Added WordPress 5.0 Editor Support (Gutenberg)
+
 = 1.3.7 - 2018-7-16 =
 * Tested and Support for WordPress 4.9.7
 
