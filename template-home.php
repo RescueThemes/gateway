@@ -15,14 +15,14 @@ get_header( 'home' ); ?>
 			<?php if ( get_theme_mod( 'home_posts_title' ) ) { 
 				$home_posts_title = get_theme_mod( 'home_posts_title' ); ?>
 
-				<h2><?php echo esc_attr( $home_posts_title ); ?></h2>
+				<h2><?php echo esc_html( $home_posts_title ); ?></h2>
 
 			<?php } // end home_posts_title
 
 				if ( get_theme_mod( 'home_posts_subtitle' ) ) { 
 				$home_posts_subtitle = get_theme_mod( 'home_posts_subtitle' ); ?>
 
-				<h3><?php echo esc_attr( $home_posts_subtitle ); ?></h3>
+				<h3><?php echo esc_html( $home_posts_subtitle ); ?></h3>
 
 			<?php } // end home_posts_subtitle ?>
 
