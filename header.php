@@ -62,7 +62,6 @@ if ( function_exists( 'wp_body_open' ) ) {
         <section class="top-bar-section">
 
           <?php
-            if ( has_nav_menu( 'primary' ) ) {
                 $defaults = array(
                       'theme_location' =>  'primary',
                       'container'      =>  false,
@@ -72,9 +71,9 @@ if ( function_exists( 'wp_body_open' ) ) {
                       'items_wrap'     =>  '<ul id="%1$s" class="%2$s">%3$s</ul>',
                       'walker'         =>  new gateway_foundation_walker()
                 );
-
-                wp_nav_menu( $defaults );
-            }
+               if ( has_nav_menu( 'primary' ) ) {
+                   wp_nav_menu( $defaults );
+               }
           ?>
 
         </section>
