@@ -1,5 +1,9 @@
 == Changelog ==
 
+= 1.7, 2021-04-14
+* Fixed links in footer
+* Tested and support for WordPress 5.7
+
 = 1.6, 2020-10-14
 * Tested and support for WordPress 5.5
 
